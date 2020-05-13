@@ -8,12 +8,11 @@ app = Flask(__name__)
 def home():
 	return render_template("index.html")
 
-@app.route("/process", methods=["POST"])
+@app.route("/process")
 def process():
-	user_inpt = request.form["user_inpt"]
+	user_inpt = request.args.get('msg')
 	bot_response = bot.respond(user_inpt)
-	return render_template('index.html', 
-		user_inpt=user_inpt, bot_response=bot_response)
+	return str(bot_response)
 
 if __name__ == "__main__":
 	app.run(debug=True, port=5002)
