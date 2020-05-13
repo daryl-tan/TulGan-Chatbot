@@ -10,9 +10,8 @@ def home():
 
 @app.route("/process")
 def process():
-	user_inpt = request.args.get('msg')
+	user_inpt = request.args.get('msg') 
 	bot_response = bot.respond(user_inpt)
-	
 	return str(bot_response)
 
 if __name__ == "__main__":
