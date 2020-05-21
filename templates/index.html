@@ -1,80 +1,95 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <style type="text/css">
-    
-    .userText {
-        color: black;
-        font-size: 17px;
-        text-align: right;
-        line-height: 30px;
-    }
-    .userText span {
-        background-color: #c8e1cc;
-        padding: 10px;
-        border-radius: 2px;
-    }
-    .botText {
-        color: black;
-        font-size: 17px;
-        text-align: left;
-        line-height: 30px;
-    }
-    .botText span {
-        background-color: #eeeeee;
-        padding: 10px;
-        border-radius: 2px;
-    }
-    </style>
-</head>
-<body>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-6 offset-sm-3">
-            <div id="chatbox" class="border border-success">
-                <p class="botText"><span>Hello, I am here to answer your questions! Ask me anything!</span></p>
-            </div>
-            <div id="userInput">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Type Your Message Here" aria-label="Message" id="textInput" name="user_inpt">
-                    <div class="input-group-append">
-                        <button class="btn btn-success" type="submit" id="sendBtn">Send</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<script>
-    function getResponse() {
-        let userText = $("#textInput").val();
-        let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
-        $("#textInput").val("");
-        $("#chatbox").append(userHtml);
-        document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
-        $.get("/process", { msg: userText }).done(function(data) {
-        var botHtml = '<p class="botText"><span>' + data + '</span></p>';
-        $("#chatbox").append(botHtml);
-        document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
-});
-}
-    $("#textInput").keypress(function(e) {
-    //if enter key is pressed
-        if(e.which == 13) {
-            getResponse();
-        }
-    });
-    $("#buttonInput").click(function() {
-        getResponse();
-    });
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</div>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="{{url_for('static', filename='style.css')}}"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="msg-header"></div>
+			<div class="chat-page">
+				<div class="col-sm-6 offset-sm-3">
+					<div
+						id="chatbox"
+						class="border border-secondary"
+						class="overflow-auto msgs"
+						style="overflow-y: scroll; height: 500px;"
+					>
+						<div class="bot-msg">
+							<p class="botText">
+								<span>Hi, how may I assist you?</span>
+							</p>
+						</div>
+					</div>
+					<div class="userInput">
+						<div class="input-group mb-3">
+							<input
+								type="text"
+								class="form-control"
+								placeholder="Type Your Message Here"
+								aria-label="Message"
+								id="textInput"
+								name="user_inpt"
+							/>
+							<div class="input-group-append">
+								<button
+									class="btn btn-primary"
+									type="submit"
+									id="sendBtn"
+								>
+									<i class="fa fa-paper-plane"> </i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			function getResponse() {
+				let userText = $("#textInput").val();
+				let userHtml =
+					'<div class="user-msg"><p class="userText"><span>' +
+					userText +
+					"</span></p></div>";
+				$("#textInput").val("");
+				$("#chatbox").append(userHtml);
+				$.get("/process", { msg: userText }).done(function (data) {
+					var botHtml =
+						'<div class="bot-msg"><p class="botText"><span>' +
+						data +
+						"</span></p></div>";
+					$("#chatbox").append(botHtml);
+				});
+			}
+			$("#textInput").keypress(function (e) {
+				//if enter key is pressed
+				if (e.which == 13) {
+					getResponse();
+				}
+			});
+			$("#sendBtn").click(function () {
+				getResponse();
+			});
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</body>
 </html>
