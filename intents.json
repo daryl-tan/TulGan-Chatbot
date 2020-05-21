@@ -89,7 +89,7 @@
 				"How is the curriculum structure in NUS com?"
 			],
 			"responses": [
-				"For a single degree, you will have to complete 160 modular credits (MC) and for a double degree, you will have to complete around 200 MC. The 160 MC is broken down into: 20 MC for University Level Requirements, 72 MC for Core Modules, 24 MC for Elective Modules,12 MC for Dissertation or Industry Internship Programme and the remaining 32MC is for Unrestricted Electives (UE). For poly-intake, 20MC is automatically awarded for UE. For more information, please visit https://www.comp.nus.edu.sg/programmes/ ."
+				"For a single degree, you will have to complete 160 modular credits (MC) and for a double degree, you will have to complete around 200 MC. The 160 MC is broken down into: 20 MC for University Level Requirements, 72 MC for Core Modules, 24 MC for Elective Modules,12 MC for Dissertation or Industry Internship Programme and the remaining 32MC is for Unrestricted Electives (UE). For poly-intake, 20MC is automatically awarded for UE. For more information, please visit https://www.comp.nus.edu.sg/programmes/."
 			],
 			"context": [""]
 		},
@@ -106,7 +106,7 @@
 				"To take a minor, how many modular credits do I need?"
 			],
 			"responses": [
-				"At least 24 modular credit (MC) is required for a Minor programme, of which up to 8MCs can be counted also towards the Faculty/Major/Minor requirements. For more information, please visit https://www.comp.nus.edu.sg/programmes/ug/minor/ ."
+				"At least 24 modular credit (MC) is required for a Minor programme, of which up to 8MCs can be counted also towards the Faculty/Major/Minor requirements. For more information, please visit https://www.comp.nus.edu.sg/programmes/ug/minor/."
 			],
 			"context": [""]
 		},
@@ -123,7 +123,7 @@
 				"To take a major, how many modular credits do I need?"
 			],
 			"responses": [
-				"At least 48 modular credit (MC) is required for a Major programme, of which up to 16 MCs can be counted also towards the Faculty/Major/Minor requirements and at least 16 MCs must be at Level 3000. For more information, please visit https://www.comp.nus.edu.sg/programmes/ug/dmajor/ ."
+				"At least 48 modular credit (MC) is required for a Major programme, of which up to 16 MCs can be counted also towards the Faculty/Major/Minor requirements and at least 16 MCs must be at Level 3000. For more information, please visit https://www.comp.nus.edu.sg/programmes/ug/dmajor/."
 			],
 			"context": [""]
 		},
