@@ -32,7 +32,8 @@
 	border-radius: 10px;
 	color: #646464;
 	font-size: 14px;
-	margin: 0;
+	margin-top: 2px;
+	margin-bottom: 2px;
 	padding: 5px 10px 5px 12px;
 	width: 100%;
 	overflow-wrap: break-word;
@@ -43,7 +44,8 @@
 	color: #fff;
 	border-radius: 10px;
 	font-size: 14px;
-	margin: 0;
+	margin-top: 2px;
+	margin-bottom: 2px;
 	padding: 5px 10px 5px 12px;
 	width: 100%;
 	overflow-wrap: break-word;
