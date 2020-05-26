@@ -92,7 +92,7 @@ class Bot():
         server.login(FROM, "Dummy2020")
         server.sendmail(FROM, TO, msg.as_string())
         server.quit()
-
+ 
     def analyze(self):
         try:
             df = pd.read_csv('data/data.csv')
