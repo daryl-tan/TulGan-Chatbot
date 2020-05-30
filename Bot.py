@@ -9,11 +9,13 @@ import pandas as pd
 import random
 from datetime import date
 import matplotlib
-import plotly.express as px
+import seaborn as sns
 
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email import encoders
 
 class Bot():
     def __init__(self):
@@ -77,21 +79,30 @@ class Bot():
 
     def sendEmail(self):
         FROM = "wtvdummyacc@gmail.com"
-        TO = "myfriend@example.com"
+        TO = "tteo43@gmail.com"
+        self.analyze()
+        
+        data = MIMEMultipart()
+        data['From'] = FROM
+        data['To'] = TO
+        data['Subject'] = "Query Analysis"
+        body = f"Query Analysis as of {date.today()}"
 
-        msg = MIMEMultipart('alternative')
-        msg['From'] = FROM
-        msg['To'] = TO
-        msg['Subject'] = "Automatic Weekly Report"
-        html = open("data/fig.html")
-        file = MIMEText(html.read(), 'html')
-        msg.attach(file)
+        data.attach(MIMEText(body, 'plain'))
+        filename = "fig.png"
+        attachment = open("data/fig.png", "rb")
 
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(FROM, "Dummy2020")
-        server.sendmail(FROM, TO, msg.as_string())
-        server.quit()
+        p = MIMEBase('application', 'octet-stream')
+        p.set_payload((attachment).read())
+        encoders.encode_base64(p)
+        p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
+        data.attach(p)
+
+        s = smtplib.SMTP('smtp.gmail.com', 587)
+        s.starttls()
+        s.login(FROM, "Dummy2020")
+        s.sendmail(FROM, TO, data.as_string())
+        s.quit()
  
     def analyze(self):
         try:
@@ -100,11 +111,11 @@ class Bot():
                 .groupby('Tag') \
                 .count() \
                 .head(10)
-            fig = px.bar(df_tag, x=df_tag.index, y="Query")
-            fig.update_yaxes(dtick=1)
-            fig.update_xaxes(title_text="Tag")
-            fig.update_layout(title_text="Query Analysis")
-            fig.write_html("data/fig.html")
+            sns.set()
+            plt.bar(x=df_tag.index, height=df_tag.Query)
+            plt.xlabel('Tag')
+            plt.ylabel('Frequency of Query')
+            plt.title('Query Analysis')
+            plt.savefig('data/fig.png')
         except:
             pass
-
