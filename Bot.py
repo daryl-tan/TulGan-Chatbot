@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import random
 from datetime import date
-import matplotlib
+import matplotlib.pyplot as plt
 import seaborn as sns
 
 import smtplib
@@ -79,7 +79,7 @@ class Bot():
 
     def sendEmail(self):
         FROM = "wtvdummyacc@gmail.com"
-        TO = "tteo43@gmail.com"
+        TO = input("Please enter your email: ")
         self.analyze()
         
         data = MIMEMultipart()
@@ -105,17 +105,14 @@ class Bot():
         s.quit()
  
     def analyze(self):
-        try:
-            df = pd.read_csv('data/data.csv')
-            df_tag = df[["Tag", "Query"]] \
-                .groupby('Tag') \
-                .count() \
-                .head(10)
-            sns.set()
-            plt.bar(x=df_tag.index, height=df_tag.Query)
-            plt.xlabel('Tag')
-            plt.ylabel('Frequency of Query')
-            plt.title('Query Analysis')
-            plt.savefig('data/fig.png')
-        except:
-            pass
+        df = pd.read_csv('data/data.csv')
+        df_tag = df[["Tag", "Query"]] \
+            .groupby('Tag') \
+            .count() \
+            .head(10)
+        sns.set()
+        plt.bar(x=df_tag.index, height=df_tag.Query)
+        plt.xlabel('Tag')
+        plt.ylabel('Frequency of Query')
+        plt.title('Query Analysis')
+        plt.savefig('data/fig.png')
