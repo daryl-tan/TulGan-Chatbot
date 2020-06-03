@@ -7,7 +7,9 @@
 }
 
 .msg-header {
-	display: inline-block;
+	background-color: #181c62;
+	color: #fff;
+	padding: 10px;
 }
 
 .chat-page {
@@ -39,7 +41,7 @@
 }
 
 .user-msg p {
-	background: #007bff none repeat scroll 0 0;
+	background: #181c62 none repeat scroll 0 0;
 	color: #fff;
 	border-radius: 10px;
 	font-size: 14px;
