@@ -73,8 +73,7 @@ class Bot():
             }
         try:
             with open('data/data.csv', 'a') as file:
-                csv.writer(file)
-                    .writerow(list(row.values()))
+                csv.writer(file).writerow(list(row.values()))
         except:
             df = pd.DataFrame(row, index=[0])
             df.to_csv('data/data.csv', index=False)
