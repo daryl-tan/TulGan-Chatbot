@@ -4,6 +4,7 @@ import pickle
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 
+import csv
 import numpy as np
 import pandas as pd
 import random
@@ -71,11 +72,12 @@ class Bot():
                 "Relevant": True
             }
         try:
-            df = pd.read_csv('data/data.csv')
-            df = df.append(row, ignore_index=True)
+            with open('data/data.csv', 'a') as file:
+                csv.writer(file)
+                    .writerow(list(row.values()))
         except:
             df = pd.DataFrame(row, index=[0])
-        df.to_csv('data/data.csv', index=False)
+            df.to_csv('data/data.csv', index=False)
 
     def sendEmail(self):
         FROM = "wtvdummyacc@gmail.com"
