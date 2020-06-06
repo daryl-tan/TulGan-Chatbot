@@ -24,7 +24,10 @@ class Bot():
             self.words, self.intents, self.classes = pickle.load(f)
         self.model = keras.models.load_model('model.tflearn')
         self.stemmer = LancasterStemmer()
-        self.context = []
+        self.context = None
+        self.settingContext = False
+        self.entity = {'Com': ["com"]}
+        self.previous = None
 
     def bow(self, inpt):
         # tokenize the pattern
@@ -40,29 +43,64 @@ class Bot():
                     bag[i] = 1
         return pd.DataFrame([np.array(bag)], dtype=float, index=['input'])
 
+    def contextualize(self, inpt):
+        inpt_words = nltk.word_tokenize(inpt)
+        inpt_words = [word.lower() for word in inpt_words]
+        for word in inpt_words:
+            for entity, var in self.entity.items():
+                if word in var:
+                    self.context = entity
+                    self.settingContext = False 
+                    return self.respond(self.previous)
+
+    def respond(self, inpt):
+        if self.settingContext and self.previous and self.context == None:
+            print(1)
+            return self.contextualize(inpt)
+        
+        results = self.classify(inpt)
+        while results:
+            for i in self.intents['intents']:
+                if i['tag'] == results[0][0]:
+                    print(results[0])
+                    if 'context_set' in i and self.context == None:
+                        self.settingContext = True
+                        self.previous = inpt
+                        return (random.choice(i['responses']))
+
+                    elif not 'context_cond' in i and  not 'context_set' in i:
+                        self.store(inpt, results[0][0])
+                        return (random.choice(i['responses']))
+                    
+                    elif ('context_cond' in i and i['context_cond'] == self.context):
+                        self.previous = None
+                        self.store(inpt, results[0][0])
+                        return (random.choice(i['responses']))
+
+            results.pop(0)
+
     def classify(self, inpt):
         results = self.model.predict([self.bow(inpt)])[0]
-        results = [[i, r] for i, r in enumerate(results) if r > 0.5]
+        results = [[i, r] for i, r in enumerate(results)]
         results.sort(key=lambda x: x[1], reverse=True)
         lst = []
         for r in results:
             lst.append((self.classes[r[0]], r[1]))
         return lst
 
-    def respond(self, inpt):
-        results = self.classify(inpt)
-        while results:
-            for i in self.intents['intents']:
-                if i['tag'] == results[0][0]:
-                    if 'context_set' in i:
-                        self.context.append(i['context_set'])
+    # def answer(self, inpt):
+    #     results = self.classify(inpt)
+    #     while results:
+    #         for i in self.intents['intents']:
+    #             if i['tag'] == results[0][0]:
+    #                 if 'context_set' in i:
+    #                     self.context.append(i['context_set'])
 
-                    if not 'context_cond' in i or \
-                            ('context_cond' in i and i['context_cond'] in self.context):
-                        self.store(inpt, results[0][0])
-                        return (random.choice(i['responses']))
+    #                 if not 'context_cond' in i or ('context_cond' in i and i['context_cond'] in self.context):
+    #                     self.store(inpt, results[0][0])
+    #                     return (random.choice(i['responses']))
 
-            results.pop(0)
+    #         results.pop(0)
 
     def store(self, inpt, tag):
         row = {

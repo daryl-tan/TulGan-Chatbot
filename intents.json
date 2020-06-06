@@ -16,8 +16,7 @@
 			"responses": [
 				"Hello, how can I assist you today?",
 				"Hi there, how can I help?"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "goodbye",
@@ -32,8 +31,7 @@
 				"See you!",
 				"Have a nice day",
 				"Bye! Come back again soon."
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "thanks",
@@ -49,8 +47,7 @@
 				"Any time!",
 				"My pleasure!",
 				"You’re welcome!"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "noanswer",
@@ -59,8 +56,7 @@
 				"Sorry, can't understand you",
 				"Please give me more info",
 				"Not sure I understand."
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "options",
@@ -73,11 +69,10 @@
 			],
 			"responses": [
 				"I can guide you through the NUS admission process or any questions relating to NUS which you might have."
-			],
-			"context": [""]
+			]
 		},
 		{
-			"tag": "curriculum",
+			"tag": "ComCurriculum",
 			"patterns": [
 				"How is the curriculum for computing like?",
 				"NUS computing curriculum?",
@@ -92,6 +87,36 @@
 				"For a single degree, you will have to complete 160 modular credits (MC) and for a double degree, you will have to complete around 200 MC. The 160 MC is broken down into: 20 MC for University Level Requirements, 72 MC for Core Modules, 24 MC for Elective Modules,12 MC for Dissertation or Industry Internship Programme and the remaining 32MC is for Unrestricted Electives (UE). For poly-intake, 20MC is automatically awarded for UE. For more information, please visit https://www.comp.nus.edu.sg/programmes/"
 			],
 			"context": [""]
+		},
+		{
+			"tag": "Generic_Curriculum",
+			"patterns": [
+				"How is the curriculum like?",
+				"NUS curriculum?",
+				"What is the curriculum structure in nus?",
+				"How is the curriculum structure in NUS?"
+			],
+			"responses": [
+				"May I enquire which faculty are you referring to?"
+			],
+			"context_set": [""]
+		},
+		{
+			"tag": "ComCurriculum",
+			"patterns": [
+				"How is the curriculum for computing like?",
+				"NUS computing curriculum?",
+				"How is the curriculum for com like?",
+				"NUS com curriculum?",
+				"What is the curriculum structure in nus computing?",
+				"How is the curriculum structure in NUS computing?",
+				"What is the curriculum structure in nus comp?",
+				"How is the curriculum structure in NUS com?"
+			],
+			"responses": [
+				"For a single degree, you will have to complete 160 modular credits (MC) and for a double degree, you will have to complete around 200 MC. The 160 MC is broken down into: 20 MC for University Level Requirements, 72 MC for Core Modules, 24 MC for Elective Modules,12 MC for Dissertation or Industry Internship Programme and the remaining 32MC is for Unrestricted Electives (UE). For poly-intake, 20MC is automatically awarded for UE. For more information, please visit https://www.comp.nus.edu.sg/programmes/"
+			],
+			"context_cond": ["Com"]
 		},
 		{
 			"tag": "minor",
