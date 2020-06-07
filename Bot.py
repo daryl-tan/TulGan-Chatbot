@@ -63,12 +63,12 @@ class Bot():
             for i in self.intents['intents']:
                 if i['tag'] == results[0][0]:
                     print(results[0])
-                    if 'context_set' in i and self.context == None:
+                    if 'context_cond' in i and self.context == None:
                         self.settingContext = True
                         self.previous = inpt
-                        return (random.choice(i['responses']))
+                        return "May I enquire which faculty are you referring to?" #(random.choice(i['responses']))
 
-                    elif not 'context_cond' in i and  not 'context_set' in i:
+                    elif not 'context_cond' in i:
                         self.store(inpt, results[0][0])
                         return (random.choice(i['responses']))
                     
