@@ -1,1 +1,1 @@
-web: gunicorn tulgan:app	
+web: gunicorn main:app	
