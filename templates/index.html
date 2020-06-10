@@ -89,14 +89,17 @@
 						data +
 						"</span></p></div>";
 					$("#chatbox").append(botHtml);
+					$("#chatbox").scrollTop($("#chatbox").height());
 				});
 			}
+
 			$("#textInput").keypress(function (e) {
 				//if enter key is pressed
 				if (e.which == 13) {
 					getResponse();
 				}
 			});
+
 			$("#sendBtn").click(function () {
 				getResponse();
 			});
