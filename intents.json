@@ -68,7 +68,7 @@
 				"What support is offered"
 			],
 			"responses": [
-				"I can guide you through the NUS admission process or any questions relating to NUS which you might have."
+				"I can guide you through the NUS admission process or any questions relating to NUS Computing which you might have."
 			]
 		},
 		{
@@ -86,18 +86,7 @@
 			"responses": [
 				"For a single degree, you will have to complete 160 modular credits (MC) and for a double degree, you will have to complete around 200 MC. The 160 MC is broken down into: 20 MC for University Level Requirements, 72 MC for Core Modules, 24 MC for Elective Modules,12 MC for Dissertation or Industry Internship Programme and the remaining 32MC is for Unrestricted Electives (UE). For poly-intake, 20MC is automatically awarded for UE. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/'>https://www.comp.nus.edu.sg/programmes/</a>"
 			],
-			"context": [""]
-		},
-		{
-			"tag": "Generic_Curriculum",
-			"patterns": [
-				"How is the curriculum like?",
-				"NUS curriculum?",
-				"What is the curriculum structure in nus?",
-				"How is the curriculum structure in NUS?"
-			],
-			"responses": ["May I enquire which faculty are you referring to?"],
-			"context_set": [""]
+			"context_set": ["Com"]
 		},
 		{
 			"tag": "ComCurriculum",
@@ -130,8 +119,7 @@
 			],
 			"responses": [
 				"At least 24 modular credit (MC) is required for a Minor programme, of which up to 8MCs can be counted also towards the Faculty/Major/Minor requirements. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/minor/'>https://www.comp.nus.edu.sg/programmes/ug/minor/</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "major",
@@ -147,8 +135,7 @@
 			],
 			"responses": [
 				"At least 48 modular credit (MC) is required for a Major programme, of which up to 16 MCs can be counted also towards the Faculty/Major/Minor requirements and at least 16 MCs must be at Level 3000. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/dmajor/'>https://www.comp.nus.edu.sg/programmes/ug/dmajor/</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "cap",
@@ -170,8 +157,7 @@
 			],
 			"responses": [
 				"The criteria for degree classification is as follows: Honours (Highest Distinction): CAP 4.50 and above Honours (Distinction): CAP 4.00 – 4.49 Honours (Merit): CAP 3.50 – 3.99 Honours: CAP 3.00 – 3.49 Pass: CAP 2.00 – 2.99 <p class='botText'>For more information, please visit <a href='http://www.nus.edu.sg/registrar/academic-information-policies/undergraduate-students/continuation-and-graduation-requirements'>http://www.nus.edu.sg/registrar/academic-information-policies/undergraduate-students/continuation-and-graduation-requirements</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Application_Outcome",
@@ -179,23 +165,27 @@
 				"What is the outcome of my application",
 				"When will i know the outcome of my application",
 				"How can i check my application outcome",
-				"How will i know if my application is successful"
+				"How will i know if my application is successful",
+				"application outcome",
+				"how do i know if my application is unsuccessful"
 			],
 			"responses": [
 				"Applicants will be informed of the outcome of their application for admission via our Online Application Status Facility (OASF).  The admission e-letter is an official document, downloadable from the OASF, stating your admission application outcome.  The University will not be sending outcome letter by post (unless stated) or email informing the application outcome.  Details are provided at <a href='http://www.nus.edu.sg/oam/accept-reject-offer'>http://www.nus.edu.sg/oam/accept-reject-offer</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Aptitude-based_admissions",
 			"patterns": [
 				"What is aptitude-based admissions",
-				"Ways to enter NUS besides grades"
+				"Ways to enter NUS besides grades",
+				"aptitude based admission",
+				"is there other ways of entering nus",
+				"aptitude based application",
+				"can i apply to nus without grades"
 			],
 			"responses": [
 				"The University sets aside up to 15% of university places for consideration of exceptional candidates for admission. For such students who do not met the cut-off points for the course applied to, the University will consider other factors besides academic grades. These students may be admitted on other bases, including demonstrated ability and interest, work experience, leadership, community service and exceptional talent, subject to a minimum level of academic competence. <p class='botText'>For more information, please visit <a href='https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/176'>https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/176</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Application_window",
@@ -203,33 +193,37 @@
 				"How to apply to NUS",
 				"When can I apply to NUS",
 				"When does the application window open",
-				"When do i apply for admission to NUS"
+				"When do i apply for admission to NUS",
+				"application window",
+				"when is the application window"
 			],
 			"responses": [
 				"Application for admission to NUS undergraduate courses opens in mid-October each year with different closing dates for different applicant category/qualification.  Applications must be submitted online through the Admissions website. <p class='botText'>More details can be found at <a href='https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/756'>https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/756</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Ranking_of_course_choices",
 			"patterns": [
-				"How do i rank the choice of course I wish to be considered?"
+				"How do i rank the choice of course I wish to be considered?",
+				"how do i rank my courses choices",
+				"ranking of course choices",
+				"how can i rank my course choices"
 			],
 			"responses": [
 				"Applicants will be considered for admission based on their preferred course choices ranked from first to last choice, ie. if an applicant does not meet the admission criteria for his first choice, he will be considered for his second choice and so on. <p class='botText'>For more information regarding exclusions to the above, please visit <a href='https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/86'>https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/86</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Early_application_outcome",
 			"patterns": [
 				"Request early application outcome",
-				"I have received an offer of admission from another university and has to accept it before NUS is able to inform me of my application outcome by end May.  Can I request an early outcome from NUS to make an informed decision?"
+				"I have received an offer of admission from another university and has to accept it before NUS is able to inform me of my application outcome by end May.  Can I request an early outcome from NUS to make an informed decision?",
+				"when do i know the outcome of my early application",
+				"outcome of my early application"
 			],
 			"responses": [
 				"Most applicants will receive the outcome of their application for admission to NUS by mid-May. Regardless whether you have accepted/enrolled in other universities, NUS will still process your application and inform you of the outcome between late April and May (those who have attended test/interviews for Architecture, Industrial Design, Landscape Architecture, Law, Medicine, Dentistry and Nursing will receive their outcome in May). All local applicants will accept their offers online via the common acceptance webpage from January to late May (please refer to <a href='https://myaces.nus.edu.sg/uasonline/Login'>https://myaces.nus.edu.sg/uasonline/Login</a> for latest updates on the common acceptance closing date every year)."
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Minimum_marks_admission",
@@ -237,23 +231,26 @@
 				"What are the minimum marks to get into NUS",
 				"What are the minimum marks to secure admission into NUS",
 				"How high must my score be to enter NUS",
-				"Can a low score enter NUS"
+				"Can a low score enter NUS",
+				"what is the minimum scored required to enter NUS"
 			],
 			"responses": [
 				"Admission to the university is based on academic merit and open competition among the applicant cohort.  The admission criteria vary from year to year depending on the competitiveness of the applicant cohort.  Therefore, there is no fixed minimum marks/grades to secure admission. Potential applicants may refer to the Indicative Grade Profile (<a href='http://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile-(igp)'>http://www.nus.edu.sg/oam/undergraduate-programmes/indicative-grade-profile-(igp)</a>) and course places of the previous academic year to make more informed choices when applying for admission."
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Appeal_to_change_course_after_being_offered",
 			"patterns": [
 				"I have been offered a course already, can i still change my course",
-				"Can I appeal to change to another course after I have been offered a place"
+				"Can I appeal to change to another course after I have been offered a place",
+				"appeal for a change of course",
+				"can i appeal to change my course",
+				"can i change course after being offered",
+				"can i still change my course after accepting"
 			],
 			"responses": [
 				"Yes, you can.  However, appeals to Architecture, Dentistry, Industrial Design, Landscape Architecture, any Law-related courses, Medicine and Nursing will not be considered, unless you have taken the required aptitude tests and interviews conducted earlier. <p class='botText'>For appeals procedures, please visit <a href='http://www.nus.edu.sg/oam/apply-to-nus/after-you-apply/submit-appeals'>http://www.nus.edu.sg/oam/apply-to-nus/after-you-apply/submit-appeals</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Online_submission_of_supporting_documents_payment_application_fee",
@@ -267,20 +264,19 @@
 			],
 			"responses": [
 				"Please refer to <a href='https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/109'>https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/109</a> for details"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Appeal_for_higher_ranked_choices",
 			"patterns": [
 				"I was offered admission to my third choice of course. Should I appeal to be admitted to my first and second choices?",
 				"Can i appeal to get my first choice",
-				"How to appeal for higher ranked choice"
+				"How to appeal for higher ranked choice",
+				"can i appela to get my first choice",
 			],
 			"responses": [
-				"You have already been considered for all your choices, in order of your preference. If you had satisfied the requirement for the courses listed as your first or second choices, you would have been offered one of those courses. Therefore, it is highly unlikely for the University to grant you admission to your first or second choice of course as a result of your appeal."
-			],
-			"context": [""]
+				"The office of admission has considered all of your choices, in order of your preference. If you had satisfied the requirement for the courses listed you would have been offered one of those courses. Therefore, it is highly unlikely for the University to grant you admission to your first or second choice of course as a result of your appeal."
+			]
 		},
 		{
 			"tag": "tuition_fee",
@@ -289,12 +285,12 @@
 				"Tuition fee",
 				"How much is the tuition fee",
 				"How much must i pay to study in nus",
-				"What is the cost to study in NUS"
+				"What is the cost to study in NUS",
+				"what is the fee to study in NUS",
 			],
 			"responses": [
 				"For more information regarding tuition fees, please visit <a href= 'http://www.nus.edu.sg/registrar/administrative-policies-procedures/undergraduate/undergraduate-fees'>http://www.nus.edu.sg/registrar/administrative-policies-procedures/undergraduate/undergraduate-fees</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Admission_into_special_courses",
@@ -305,47 +301,53 @@
 				"What is the interview process for Architecture like",
 				"What is the interview process for Industrial Design like",
 				"What is the interview process for Law like",
-				"What is the interview process for Nursing like"
+				"What is the interview process for Nursing like",
+				"Interview process",
+				"What is the interview process like"
 			],
 			"responses": [
 				"For more information regarding the shortlisting and selection procedure, please visit <a href='https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/546'>https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/546</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "NSmen_accepted_offer",
 			"patterns": [
 				"I am a full-time National Serviceman. What must I do after accepting the offer of admission to a course?",
-				"What must nsfs do after accepting offer to nus"
+				"What must nsfs do after accepting offer to nus",
+				"i am a nsmen and i just accepted the offer to nus",
+				"i am a nsf that just accepted the offer to nus",
+				"as a nsf is there anything i need to do after accepting the offer from nus"
 			],
 			"responses": [
 				"The University will write to you in October of the year before your enrolment to NUS. You will be requested to confirm your acceptance of the reserved course via our online system and select one of the following enrolment options: 1)  Enrolling in August for the Academic Year, 2)  Unable to enrol due to National, Service commitments, AND request for deferment of course to next Academic Year, 3)  Unable to enrol due to National Service commitment BUT I would like to obtain a letter from NUS so that I can apply for disruption to enrol in the current Academic Year, 4)  Rejecting place in NUS"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Appeal_for_other_courses_besides_previous_choices",
 			"patterns": [
 				"I was not offered a course, should i appeal for the same courses or should i appeal for different courses",
 				"Should i appeal for a different course",
-				"can i appeal for the same courses"
+				"can i appeal for the same courses",
+				"can i appeal for the course which i was not offered"
 			],
 			"responses": [
 				"You have already been considered for all your previous choices. If you were not offered a place, it is because you did not meet the admission and/or subject requirements for all your choices. Therefore, appealing for the same choices would be highly unlikely to change the University's prior decision. You are strongly encouraged to appeal for courses other than your previous choices."
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "nsf_applying_to_change_course",
 			"patterns": [
 				"Can a nsf re-apply to NUS",
-				"What happens if a nsf re-applies to NUS",
-				"what happens to the course reserved for me when i reapply"
+				"how do i reapply",
+				"how can i reapply",
+				"reapplication for a course in nus",
+				"reapplication to nus",
+				"reapply for another course",
+				"re-apply for another course"
 			],
 			"responses": [
 				"If you wish to re-apply for admission to another course at NUS, you may submit a fresh application for admission during the application period.  Please refer to the application period pertaining to your qualification at <a href='http://www.nus.edu.sg/oam/apply-to-nus.html'>http://www.nus.edu.sg/oam/apply-to-nus.html</a> You should only indicate the course(s) that you wish to be considered. <p class='botText'>For more information, please visit <a href='http://www.nus.edu.sg/oam/apply-to-nus/returning-national-servicemen/information-for-full-time-ns-men'>http://www.nus.edu.sg/oam/apply-to-nus/returning-national-servicemen/information-for-full-time-ns-men</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Selection_for_admission_to_NUS",
@@ -353,12 +355,13 @@
 				"How is one selected for admission to a course in NUS?",
 				"How is the selection procedure like",
 				"How will i be selected for a course",
-				"What is the selection procedure like"
+				"What is the selection procedure like",
+				"nus selection process",
+				"admission selection process"
 			],
 			"responses": [
 				"Admission is based on academic merit and open competition among all eligible applicants for places available.  Academic merit is used to determine admission for non-interview courses and a minimum academic proficiency is still required for students considered under Aptitude Based Admissions.  For admission to Architecture, Dentistry, Industrial Design, Landscape Architecture, Medicine, Nursing, any Law-related courses and some Double/Concurrent Degree Programmes, it is also dependent on the outcome of interviews and/or aptitude tests (please check the respective faculty website for the specific requirements). <p class='botText'>For more information, please refer to <a href='https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/83'>https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/83</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "NUS_Scholarship_interview",
@@ -366,57 +369,67 @@
 				"Nus scholarship interview",
 				"When and how will the selection interviews for the NUS Scholarships be conducted",
 				"When will nus scholarship results be released",
-				"What is the selection process of the nus scholarship like"
+				"What is the selection process of the nus scholarship like",
+				"scholarship selection process",
+				"what is the selection process like for nus scholarship"
 			],
 			"responses": [
 				"Selection interviews for the NUS Scholarships (for Singapore Citizens) will be conducted from March to May each year.  Shortlisted applicants will be invited specifically for scholarship selection interviews. Applicants who are shortlisted will be notified of their interview details through email. Applicants will be informed of the outcome of their application for scholarships via the Online Application Status Facility (OASF) by end-May. The scholarship e-letter is an official document, downloadable from the OASF, stating your scholarship application outcome. No other outcome letter will be posted to you. <p class='botText'>For more information, please refer to <a href='https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/807'>https://www.askadmissions.nus.edu.sg/app/answers/detail/a_id/807</a>"
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Part_time_undergraduate_degree",
 			"patterns": [
 				"Does NUS offer part time undergraduate degree courses",
 				"part time undergraduate degree courses",
-				"part time degree"
+				"part time degree",
+				"part-time undergraduate degree courses",
+				"part-time degree",
+				"parttime undergraduate degree courses",
+				"parttime degree",
+				"does nus offer part time degree",
+				"does nus offer parttime degree"
 			],
 			"responses": [
 				"Yes, part-time undergraduate courses such as the Bachelor of Technology (Engineering/Computing) programmes are offered by our School of Continuing and Lifelong Education (SCALE), please refer to <a href='http://scale.nus.edu.sg/programmes/btech.html'>http://scale.nus.edu.sg/programmes/btech.html</a> for more information."
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Online_submission_supporting_documents",
 			"patterns": [
 				"How do i submit supporting documents",
-				"submit supporting documents online"
+				"submit supporting documents online",
+				"submission of supporting documents online"
 			],
 			"responses": [
 				"All applicants are required to submit their supporting documents electronically through the 'Online Submission of Supporting Document' option when they login to the Online Application Status Facility (OASF). An Application Checklist is available in the respective application category (<a href='http://www.nus.edu.sg/oam/apply-to-nus.html'>http://www.nus.edu.sg/oam/apply-to-nus.html</a>) to guide you on document submission. You are not required to mail or fax your documents after you have submitted your documents electronically.  You may login to the OASF 3-5 working days after electronic submission to check if your supporting documents have been received. Submitting your supporting documents via the OASF will save time and cost, and speed up the processing of your application."
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "defer studies and reserve place",
 			"patterns": [
 				"can i defer my studies",
 				"deferring studies",
-				"will nus reserve a place for me if i defer my studies"
+				"will nus reserve a place for me if i defer my studies",
+				"gap year programme",
+				"does nus offer a gap year"
 			],
 			"responses": [
 				"Currently, we do not offer a gap year programme.  Places will ONLY be reserved for applicants serving full-time National Service (NS) in Singapore as they are required to complete their NS liability before pursuing tertiary education. However, for extenuating circumstances such as a medical condition that prevents the successful applicant from enrolling with us, the applicant should submit an appeal to the Office of Admissions for consideration. You should apply for University admission in the year you are ready to enroll."
-			],
-			"context": [""]
+			]
 		},
 		{
 			"tag": "Notification of interview and tests",
 			"patterns": [
-				"When will I be informed that I have been shortlisted for interviews or tests"
+				"When will I be informed that I have been shortlisted for interviews or tests",
+				"how do i know if im shortlisted",
+				"how will i be informed if im shortlisted",
+				"how will i know that i have been shortlisted for an interview",
+				"how do i know that i have been shortlisted"
 			],
 			"responses": [
 				"Students who have applied for admission to Architecture, Dentistry, Industrial Design, Landscape Architecture, Law, Medicine and/or Nursing will be notified via the Online Application Status Facility in end-March/April.  As the shortlist notification will be released electronically, the electronic letter to attend interview/test will serve as the official document from the University.  No hardcopy letter and email will be sent to you.  <p class='botText'>Please visit <a href='http://www.nus.edu.sg/oam/faculty-interviews-and-test-dates'>http://www.nus.edu.sg/oam/faculty-interviews-and-test-dates</a> for more information."
-			],
-			"context": [""]
+			]
 		}
 	]
 }

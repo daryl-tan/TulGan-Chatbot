@@ -3,7 +3,7 @@ import pickle
 
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
-
+import json
 import csv
 import numpy as np
 import pandas as pd
@@ -20,13 +20,14 @@ from email import encoders
 
 class Bot():
     def __init__(self):
-        with open("data.pickle", "rb") as f:
-            self.words, self.intents, self.classes = pickle.load(f)
+        with open("data.pickle", "rb") as files:
+            self.words, self.intents, self.classes = pickle.load(files)
+        with open("entity.json", "rb") as entity:
+            self.entity: entity
         self.model = keras.models.load_model('model.tflearn')
         self.stemmer = LancasterStemmer()
         self.context = None
         self.settingContext = False
-        self.entity = {'Com': ["com"]}
         self.previous = None
 
     def bow(self, inpt):
@@ -55,14 +56,12 @@ class Bot():
 
     def respond(self, inpt):
         if self.settingContext and self.previous and self.context == None:
-            print(1)
             return self.contextualize(inpt)
         
         results = self.classify(inpt)
         while results:
             for i in self.intents['intents']:
                 if i['tag'] == results[0][0]:
-                    print(results[0])
                     if 'context_cond' in i and self.context == None:
                         self.settingContext = True
                         self.previous = inpt
