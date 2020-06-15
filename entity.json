@@ -1,3 +1,8 @@
 {
-    "Com": ["com", "computing"]
+    "Com": 
+    [
+        "com", 
+        "computing", 
+        "comp"
+    ]
 }

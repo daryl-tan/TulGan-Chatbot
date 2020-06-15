@@ -86,22 +86,127 @@
 			"responses": [
 				"For a single degree, you will have to complete 160 modular credits (MC) and for a double degree, you will have to complete around 200 MC. The 160 MC is broken down into: 20 MC for University Level Requirements, 72 MC for Core Modules, 24 MC for Elective Modules,12 MC for Dissertation or Industry Internship Programme and the remaining 32MC is for Unrestricted Electives (UE). For poly-intake, 20MC is automatically awarded for UE. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/'>https://www.comp.nus.edu.sg/programmes/</a>"
 			],
+			"context_cond": ["Com"]
+		},
+		{
+			"tag": "ComSci",
+			"patterns": [
+				"Computer Science",
+				"How is computer science like",
+				"can you explain to me more about computer science",
+				"why computer science"
+			],
+			"responses": [
+				"Our Computer Science programme offers a wide spectrum of electives across many sub-areas to give students the flexibility to build up expertise for different job domains: Big Data Management and Engineering, Full-Stack Software Engineering, Artificial Intelligence and many others! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/cs/'>https://www.comp.nus.edu.sg/programmes/ug/cs/</a>"
+			],
 			"context_set": ["Com"]
 		},
 		{
-			"tag": "ComCurriculum",
+			"tag": "InfoSys",
 			"patterns": [
-				"How is the curriculum for computing like?",
-				"NUS computing curriculum?",
-				"How is the curriculum for com like?",
-				"NUS com curriculum?",
-				"What is the curriculum structure in nus computing?",
-				"How is the curriculum structure in NUS computing?",
-				"What is the curriculum structure in nus comp?",
-				"How is the curriculum structure in NUS com?"
+				"information system",
+				"How is information system like",
+				"can you explain to me more about information system",
+				"why information system"
 			],
 			"responses": [
-				"For a single degree, you will have to complete 160 modular credits (MC) and for a double degree, you will have to complete around 200 MC. The 160 MC is broken down into: 20 MC for University Level Requirements, 72 MC for Core Modules, 24 MC for Elective Modules,12 MC for Dissertation or Industry Internship Programme and the remaining 32MC is for Unrestricted Electives (UE). For poly-intake, 20MC is automatically awarded for UE. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/'>https://www.comp.nus.edu.sg/programmes/</a>"
+				"Our Information Systems programme offers three specialisations to give students the opportunity to build expertise for key job domains: Fintech, Digital Innovation, E-Commerce and many others! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/is/'>https://www.comp.nus.edu.sg/programmes/ug/is/</a>"
+			],
+			"context_set": ["Com"]
+		},
+		{
+			"tag": "ComEng",
+			"patterns": [
+				"Computer Engineering",
+				"How is computer Engineering like",
+				"can you explain to me more about computer Engineering",
+				"why computer Engineering"
+			],
+			"responses": [
+				"Our Computer Engineering programme offers two specialisations to give students the opportunity to build up expertise for key job domains: Internet of Things, Robotics and many others! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/ceg/'>https://www.comp.nus.edu.sg/programmes/ug/ceg/</a>"
+			],
+			"context_set": ["Com"]
+		},
+		{
+			"tag": "BZA",
+			"patterns": [
+				"Business analytics",
+				"How is business analytics like",
+				"can you explain to me more about business analytics",
+				"why business analytics"
+			],
+			"responses": [
+				"Our Business Analytics programme offers two specialisations to give students the opportunity to build expertise for key job domains: Financial Analytics, Marketing Analytics and many others! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/ba/'>https://www.comp.nus.edu.sg/programmes/ug/ba/</a>"
+			],
+			"context_set": ["Com"]
+		},
+		{
+			"tag": "InfoSec",
+			"patterns": [
+				"information security",
+				"How is information security like",
+				"can you explain to me more about information security",
+				"why information security"
+			],
+			"responses": [
+				"Our Computer Science programme offers a wide spectrum of electives across many sub-areas to give students the flexibility to build up expertise for different job domains: Cyber Analyst, Security Consultant, Security Software Engineer and many others! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/isc/'>https://www.comp.nus.edu.sg/programmes/ug/isc/</a>"
+			],
+			"context_set": ["Com"]
+		},
+		{
+			"tag": "DoubleMajorOffered",
+			"patterns": [
+				"what are the double major avaliable at nus computing",
+				"what are the double major offered by nus computing",
+				"what are the double major avaliable at nus comp",
+				"what are the double major offered by nus comp",
+				"what are the double major avaliable at nus com",
+				"what are the double major offered by nus com",
+				"double major offered by com",
+				"double major offered by computing",
+				"double major offered by comp"
+			],
+			"responses": [
+				"The School of Computing offers direct admissions for  undergraduates to pursue a double major with another faculty. Some of the programmes avaliable are Business Analytics with Economics, Computer Science Courses with Statistics and etc. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/dmajoro/'>https://www.comp.nus.edu.sg/programmes/ug/dmajoro/</a>"
+			],
+			"context_cond": ["Com"]
+		},
+		{
+			"tag": "ComCourses",
+			"patterns": [
+				"what are the courses avaliable at computing",
+				"courses offered by computing",
+				"types of courses in computing",
+				"what are the degree offered by computing",
+				"types of degree avaliable at computing",
+				"degree offered by computing",
+				"degree i can apply at nus computing",
+				"what are the courses avaliable at com",
+				"courses offered by com",
+				"types of courses in com",
+				"what are the degree offered by com",
+				"types of degree avaliable at com",
+				"degree offered by com",
+				"degree i can apply at nus com",
+				"what are the courses avaliable at comp",
+				"courses offered by comp",
+				"types of courses in comp",
+				"what are the degree offered by comp",
+				"types of degree avaliable at comp",
+				"degree offered by comp",
+				"degree i can apply at nus comp",
+				"what are the programmes offered by nus computing",
+				"programme by computing",
+				"what are the programmes offered by nus com",
+				"programme by com",
+				"what are the programmes offered by nus comp",
+				"programme by comp",
+				"programme avaliable at computing",
+				"programme avaliable at com",
+				"programme avaliable at comp"
+			],
+			"responses": [
+				"At NUS Computing, we offer a myriad of programmes such as Computer Science, Computer Engineering, Information Security, Information System and Business Analytics. These programmes will equipped you with the necessary skills to be an entrepreneur, scientist, designer or business executive. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/'>https://www.comp.nus.edu.sg/programmes/</a>"
 			],
 			"context_cond": ["Com"]
 		},
@@ -272,7 +377,7 @@
 				"I was offered admission to my third choice of course. Should I appeal to be admitted to my first and second choices?",
 				"Can i appeal to get my first choice",
 				"How to appeal for higher ranked choice",
-				"can i appela to get my first choice",
+				"can i appela to get my first choice"
 			],
 			"responses": [
 				"The office of admission has considered all of your choices, in order of your preference. If you had satisfied the requirement for the courses listed you would have been offered one of those courses. Therefore, it is highly unlikely for the University to grant you admission to your first or second choice of course as a result of your appeal."
@@ -286,7 +391,7 @@
 				"How much is the tuition fee",
 				"How much must i pay to study in nus",
 				"What is the cost to study in NUS",
-				"what is the fee to study in NUS",
+				"what is the fee to study in NUS"
 			],
 			"responses": [
 				"For more information regarding tuition fees, please visit <a href= 'http://www.nus.edu.sg/registrar/administrative-policies-procedures/undergraduate/undergraduate-fees'>http://www.nus.edu.sg/registrar/administrative-policies-procedures/undergraduate/undergraduate-fees</a>"

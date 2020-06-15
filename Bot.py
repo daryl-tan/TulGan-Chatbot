@@ -22,8 +22,8 @@ class Bot():
     def __init__(self):
         with open("data.pickle", "rb") as files:
             self.words, self.intents, self.classes = pickle.load(files)
-        with open("entity.json", "rb") as entity:
-            self.entity: entity
+        with open("entity.json", "rb") as entities:
+            self.entity = json.load(entities)
         self.model = keras.models.load_model('model.tflearn')
         self.stemmer = LancasterStemmer()
         self.context = None
@@ -54,52 +54,53 @@ class Bot():
                     self.settingContext = False 
                     return self.respond(self.previous)
 
+    def iscontextualize(self, inpt):
+        inpt_words = nltk.word_tokenize(inpt)
+        inpt_words = [word.lower() for word in inpt_words]
+        for word in inpt_words:
+            for entity, var in self.entity.items():
+                if word in var:
+                    self.context = entity
+                    return False
+        return True
+            
+
     def respond(self, inpt):
         if self.settingContext and self.previous and self.context == None:
             return self.contextualize(inpt)
         
         results = self.classify(inpt)
-        while results:
-            for i in self.intents['intents']:
-                if i['tag'] == results[0][0]:
-                    if 'context_cond' in i and self.context == None:
-                        self.settingContext = True
-                        self.previous = inpt
-                        return "May I enquire which faculty are you referring to?" #(random.choice(i['responses']))
 
-                    elif not 'context_cond' in i:
-                        self.store(inpt, results[0][0])
-                        return (random.choice(i['responses']))
-                    
-                    elif ('context_cond' in i and i['context_cond'] == self.context):
-                        self.previous = None
-                        self.store(inpt, results[0][0])
-                        return (random.choice(i['responses']))
+        for i in self.intents['intents']:
+            if i['tag'] == results[0]:
 
-            results.pop(0)
+                if 'context_cond' in i and self.context == None and self.iscontextualize(inpt):
+                    self.settingContext = True
+                    self.previous = inpt
+                    return "May I enquire which faculty are you referring to?" 
+                
+                if 'context_set' in i:
+                    self.context = i['context_set']
+                    self.store(inpt, results[0])
+                    return (random.choice(i['responses']))
+
+                elif not 'context_cond' in i:
+                    self.store(inpt, results[0])
+                    return (random.choice(i['responses']))
+                
+                elif ('context_cond' in i and i['context_cond'][0] == self.context):
+                    self.previous = None
+                    self.store(inpt, results[0])
+                    return (random.choice(i['responses']))
 
     def classify(self, inpt):
         results = self.model.predict([self.bow(inpt)])[0]
         results = [[i, r] for i, r in enumerate(results)]
-        results.sort(key=lambda x: x[1], reverse=True)
+        results.sort(key=lambda x: x[1], reverse = True)
         lst = []
         for r in results:
             lst.append((self.classes[r[0]], r[1]))
-        return lst
-
-    # def answer(self, inpt):
-    #     results = self.classify(inpt)
-    #     while results:
-    #         for i in self.intents['intents']:
-    #             if i['tag'] == results[0][0]:
-    #                 if 'context_set' in i:
-    #                     self.context.append(i['context_set'])
-
-    #                 if not 'context_cond' in i or ('context_cond' in i and i['context_cond'] in self.context):
-    #                     self.store(inpt, results[0][0])
-    #                     return (random.choice(i['responses']))
-
-    #         results.pop(0)
+        return lst[0]
 
     def store(self, inpt, tag):
         row = {
