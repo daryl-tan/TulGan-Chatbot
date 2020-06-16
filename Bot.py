@@ -5,18 +5,9 @@ import nltk
 from nltk.stem.lancaster import LancasterStemmer
 import json
 import csv
-import numpy as np
-import pandas as pd
-import random
-from datetime import date
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
+import random
+from DataManager import DataManager
 
 class Bot():
     def __init__(self):
@@ -29,6 +20,7 @@ class Bot():
         self.context = None
         self.settingContext = False
         self.previous = None
+        self.dataManager = DataManager()
 
     def bow(self, inpt):
         # tokenize the pattern
@@ -64,7 +56,6 @@ class Bot():
                     return False
         return True
             
-
     def respond(self, inpt):
         if self.settingContext and self.previous and self.context == None:
             return self.contextualize(inpt)
@@ -81,16 +72,16 @@ class Bot():
                 
                 if 'context_set' in i:
                     self.context = i['context_set']
-                    self.store(inpt, results[0])
+                    self.dataManager.store(inpt, results[0])
                     return (random.choice(i['responses']))
 
                 elif not 'context_cond' in i:
-                    self.store(inpt, results[0])
+                    self.dataManager.store(inpt, results[0])
                     return (random.choice(i['responses']))
                 
                 elif ('context_cond' in i and i['context_cond'][0] == self.context):
                     self.previous = None
-                    self.store(inpt, results[0])
+                    self.dataManager.store(inpt, results[0])
                     return (random.choice(i['responses']))
 
     def classify(self, inpt):
@@ -102,56 +93,6 @@ class Bot():
             lst.append((self.classes[r[0]], r[1]))
         return lst[0]
 
-    def store(self, inpt, tag):
-        row = {
-                "Date": date.today(),
-                "Query": inpt,
-                "Tag": tag,
-                "Relevant": True
-            }
-        try:
-            with open('data/data.csv', 'a') as file:
-                csv.writer(file).writerow(list(row.values()))
-        except:
-            df = pd.DataFrame(row, index=[0])
-            df.to_csv('data/data.csv', index=False)
-
     def sendEmail(self):
-        FROM = "wtvdummyacc@gmail.com"
         TO = input("Please enter your email: ")
-        self.analyze()
-        
-        data = MIMEMultipart()
-        data['From'] = FROM
-        data['To'] = TO
-        data['Subject'] = "Query Analysis"
-        body = f"Query Analysis as of {date.today()}"
-
-        data.attach(MIMEText(body, 'plain'))
-        filename = "fig.png"
-        attachment = open("data/fig.png", "rb")
-
-        p = MIMEBase('application', 'octet-stream')
-        p.set_payload((attachment).read())
-        encoders.encode_base64(p)
-        p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
-        data.attach(p)
-
-        s = smtplib.SMTP('smtp.gmail.com', 587)
-        s.starttls()
-        s.login(FROM, "Dummy2020")
-        s.sendmail(FROM, TO, data.as_string())
-        s.quit()
- 
-    def analyze(self):
-        df = pd.read_csv('data/data.csv')
-        df_tag = df[["Tag", "Query"]] \
-            .groupby('Tag') \
-            .count() \
-            .head(10)
-        sns.set()
-        plt.bar(x=df_tag.index, height=df_tag.Query)
-        plt.xlabel('Tag')
-        plt.ylabel('Frequency of Query')
-        plt.title('Query Analysis')
-        plt.savefig('data/fig.png')
+        self.dataManager.sendEmail(TO)
