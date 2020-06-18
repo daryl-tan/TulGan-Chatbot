@@ -94,7 +94,17 @@
 				"Computer Science",
 				"How is computer science like",
 				"can you explain to me more about computer science",
-				"why computer science"
+				"why computer science",
+				"what are the specialization available in computer science",
+				"what are the specialization computer science offers",
+				"what are the specialization nus offers for computer science",
+				"computer science specialization",
+				"types of specialization available in computer science",
+				"what are the specialisation available in computer science",
+				"what are the specialisation computer science offers",
+				"what are the specialisation nus offers for computer science",
+				"computer science specialisation",
+				"types of specialisation available in computer science"
 			],
 			"responses": [
 				"Our Computer Science programme offers a wide spectrum of electives across many sub-areas to give students the flexibility to build up expertise for different job domains: Big Data Management and Engineering, Full-Stack Software Engineering, Artificial Intelligence and many others! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/cs/'>https://www.comp.nus.edu.sg/programmes/ug/cs/</a>"
@@ -107,10 +117,20 @@
 				"information system",
 				"How is information system like",
 				"can you explain to me more about information system",
-				"why information system"
+				"why information system",
+				"what are the specialization available in information system",
+				"what are the specialization information system offers",
+				"what are the specialization nus offers for information system",
+				"information system specialization",
+				"types of specialization available in information system",
+				"what are the specialisation available in information system",
+				"what are the specialisation information system offers",
+				"what are the specialisation nus offers for information system",
+				"information system specialisation",
+				"types of specialisation available in information system"
 			],
 			"responses": [
-				"Our Information Systems programme offers three specialisations to give students the opportunity to build expertise for key job domains: Fintech, Digital Innovation, E-Commerce and many others! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/is/'>https://www.comp.nus.edu.sg/programmes/ug/is/</a>"
+				"Our Information Systems programme offers three specialisations to give students the opportunity to build expertise for key job domains: Fintech, Digital Innovation and E-Commerce! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/is/'>https://www.comp.nus.edu.sg/programmes/ug/is/</a>"
 			],
 			"context_set": ["Com"]
 		},
@@ -120,10 +140,20 @@
 				"Computer Engineering",
 				"How is computer Engineering like",
 				"can you explain to me more about computer Engineering",
-				"why computer Engineering"
+				"why computer Engineering",
+				"what are the specialization available in computer Engineering",
+				"what are the specialization computer Engineering offers",
+				"what are the specialization nus offers for computer Engineering",
+				"computer Engineering specialization",
+				"types of specialization available in computer Engineering",
+				"what are the specialisation available in computer Engineering",
+				"what are the specialisation computer Engineering offers",
+				"what are the specialisation nus offers for computer Engineering",
+				"computer Engineering specialisation",
+				"types of specialisation available in computer Engineering"
 			],
 			"responses": [
-				"Our Computer Engineering programme offers two specialisations to give students the opportunity to build up expertise for key job domains: Internet of Things, Robotics and many others! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/ceg/'>https://www.comp.nus.edu.sg/programmes/ug/ceg/</a>"
+				"Our Computer Engineering programme offers two specialisations to give students the opportunity to build up expertise for key job domains: Internet of Things and Robotics! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/ceg/'>https://www.comp.nus.edu.sg/programmes/ug/ceg/</a>"
 			],
 			"context_set": ["Com"]
 		},
@@ -133,10 +163,20 @@
 				"Business analytics",
 				"How is business analytics like",
 				"can you explain to me more about business analytics",
-				"why business analytics"
+				"why business analytics",
+				"what are the specialization available in Business analytics",
+				"what are the specialization Business analytics offers",
+				"what are the specialization nus offers for Business analytics",
+				"Business analytics specialization",
+				"types of specialization available in Business analytics",
+				"what are the specialisation available in Business analytics",
+				"what are the specialisation Business analytics offers",
+				"what are the specialisation nus offers for Business analytics",
+				"Business analytics specialisation",
+				"types of specialisation available in Business analytics"
 			],
 			"responses": [
-				"Our Business Analytics programme offers two specialisations to give students the opportunity to build expertise for key job domains: Financial Analytics, Marketing Analytics and many others! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/ba/'>https://www.comp.nus.edu.sg/programmes/ug/ba/</a>"
+				"Our Business Analytics programme offers two specialisations to give students the opportunity to build expertise for key job domains: Financial Analytics and Marketing Analytics! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/ba/'>https://www.comp.nus.edu.sg/programmes/ug/ba/</a>"
 			],
 			"context_set": ["Com"]
 		},
@@ -146,7 +186,17 @@
 				"information security",
 				"How is information security like",
 				"can you explain to me more about information security",
-				"why information security"
+				"why information security",
+				"what are the specialization available in information security",
+				"what are the specialization information security offers",
+				"what are the specialization nus offers for information security",
+				"information security specialization",
+				"types of specialization available in information security",
+				"what are the specialisation available in information security",
+				"what are the specialisation information security offers",
+				"what are the specialisation nus offers for information security",
+				"information security specialisation",
+				"types of specialisation available in information security"
 			],
 			"responses": [
 				"Our Computer Science programme offers a wide spectrum of electives across many sub-areas to give students the flexibility to build up expertise for different job domains: Cyber Analyst, Security Consultant, Security Software Engineer and many others! <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/isc/'>https://www.comp.nus.edu.sg/programmes/ug/isc/</a>"
@@ -156,43 +206,43 @@
 		{
 			"tag": "DoubleMajorOffered",
 			"patterns": [
-				"what are the double major avaliable at nus computing",
+				"what are the double major available at nus computing",
 				"what are the double major offered by nus computing",
-				"what are the double major avaliable at nus comp",
+				"what are the double major available at nus comp",
 				"what are the double major offered by nus comp",
-				"what are the double major avaliable at nus com",
+				"what are the double major available at nus com",
 				"what are the double major offered by nus com",
 				"double major offered by com",
 				"double major offered by computing",
 				"double major offered by comp"
 			],
 			"responses": [
-				"The School of Computing offers direct admissions for  undergraduates to pursue a double major with another faculty. Some of the programmes avaliable are Business Analytics with Economics, Computer Science Courses with Statistics and etc. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/dmajoro/'>https://www.comp.nus.edu.sg/programmes/ug/dmajoro/</a>"
+				"The School of Computing offers direct admissions for  undergraduates to pursue a double major with another faculty. Some of the programmes available are Business Analytics with Economics, Computer Science Courses with Statistics and etc. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/ug/dmajoro/'>https://www.comp.nus.edu.sg/programmes/ug/dmajoro/</a>"
 			],
 			"context_cond": ["Com"]
 		},
 		{
 			"tag": "ComCourses",
 			"patterns": [
-				"what are the courses avaliable at computing",
+				"what are the courses available at computing",
 				"courses offered by computing",
 				"types of courses in computing",
 				"what are the degree offered by computing",
-				"types of degree avaliable at computing",
+				"types of degree available at computing",
 				"degree offered by computing",
 				"degree i can apply at nus computing",
-				"what are the courses avaliable at com",
+				"what are the courses available at com",
 				"courses offered by com",
 				"types of courses in com",
 				"what are the degree offered by com",
-				"types of degree avaliable at com",
+				"types of degree available at com",
 				"degree offered by com",
 				"degree i can apply at nus com",
-				"what are the courses avaliable at comp",
+				"what are the courses available at comp",
 				"courses offered by comp",
 				"types of courses in comp",
 				"what are the degree offered by comp",
-				"types of degree avaliable at comp",
+				"types of degree available at comp",
 				"degree offered by comp",
 				"degree i can apply at nus comp",
 				"what are the programmes offered by nus computing",
@@ -201,9 +251,9 @@
 				"programme by com",
 				"what are the programmes offered by nus comp",
 				"programme by comp",
-				"programme avaliable at computing",
-				"programme avaliable at com",
-				"programme avaliable at comp"
+				"programme available at computing",
+				"programme available at com",
+				"programme available at comp"
 			],
 			"responses": [
 				"At NUS Computing, we offer a myriad of programmes such as Computer Science, Computer Engineering, Information Security, Information System and Business Analytics. These programmes will equipped you with the necessary skills to be an entrepreneur, scientist, designer or business executive. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/'>https://www.comp.nus.edu.sg/programmes/</a>"
@@ -521,6 +571,118 @@
 			],
 			"responses": [
 				"Currently, we do not offer a gap year programme.  Places will ONLY be reserved for applicants serving full-time National Service (NS) in Singapore as they are required to complete their NS liability before pursuing tertiary education. However, for extenuating circumstances such as a medical condition that prevents the successful applicant from enrolling with us, the applicant should submit an appeal to the Office of Admissions for consideration. You should apply for University admission in the year you are ready to enroll."
+			]
+		},
+		{
+			"tag": "SU Options",
+			"patterns": [
+				"How do the SU system works",
+				"What is the SU grading options",
+				"What can I su",
+				"what does the SU work",
+				"How do su work",
+				"what is su"
+				
+			],
+			"responses": [
+				"At the end of the semester, letter grades for modules will be released to students. Under the S/U mechanism, students may choose to retain the letter grade and have it factored into their CAP, or choose to exercise the S/U option on a module, in which case the letter grade will not be shown on the transcript nor computed towards the CAP. A ‘S' grade is assigned if the student receives a ‘C' grade or above for the module. Conversely, the student will receive a ‘U' if the grade obtained is lower than a ‘C' grade. Modular credits will be earned only if a ‘Satisfactory' (S) grade is attained. <p class='botText'>For more information, please visit <a href='http://www.nus.edu.sg/registrar/academic-activities/satisfactory-unsatisfactory-(s-u)-option'>http://www.nus.edu.sg/registrar/academic-activities/satisfactory-unsatisfactory-(s-u)-option</a>"
+			]
+		},
+		{
+			"tag": "Module allocation",
+			"patterns": [
+				"how are the modules allocated",
+				"why did i not get the module i bid for",
+				"how does nus allocate the modules",
+				"how are the modules being allocated",
+				"how come i did not get the module i bid for"
+			],
+			"responses": [
+				"ModReg@EduRec employs a rules-driven, priority-based engine to allocate modules based on each student’s: Curricular needs; Seniority in the programme; and Module preferences. For more information, please refer to <a href='http://www.nus.edu.sg/ModReg/'>http://www.nus.edu.sg/ModReg/</a>."
+			]
+		},
+		{
+			"tag": "Module application date",
+			"patterns": [
+				"when can i apply for my module",
+				"module application date",
+				"when can i register for my module",
+				"when is the module registration date",
+				"when is the opening date for module registration"
+				
+			],
+			"responses": [
+				"Please refer to this link to check on the Module Registration Date <a href='http://www.nus.edu.sg/ModReg/'>http://www.nus.edu.sg/ModReg/</a>."
+			]
+		},
+		{
+			"tag": "Module Registration",
+			"patterns": [
+				"how do i register for my module",
+				"module registration",
+				"how to register for my module",
+				"how do we register for modules",
+				"where do we go to register for modules"
+			],
+			"responses": [
+				"You can make a register your modules via the <a href='https://myedurec.nus.edu.sg/psc/cs90prd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?&'>Education Records System</a> (EduRec) (Navigation: Academics > Module Registration > Select Modules). You are required to complete your Academic Plan declaration before proceeding with the registration."
+			]
+		},
+		{
+			"tag": "Academic Calender",
+			"patterns": [
+				"where can i get the academic calender",
+				"academic calender",
+				"when does school starts",
+				"can i get a copy of the academic calender",
+				"when does the new ay starts"
+			],
+			"responses": [
+				"You can obtain a copy of the Academic Calender via <a href='http://www.nus.edu.sg/registrar/calendar'>http://www.nus.edu.sg/registrar/calendar</a>."
+			]
+		},
+		{
+			"tag": "How to SU",
+			"patterns": [
+				"How do i su",
+				"how do i apply my Su",
+				"where do i go to su",
+				"where do i go to to apply my su",
+				"what is the link i should visit to apply my su",
+				"where should i go to use my su",
+				"where should i go to su",
+				"how to su",
+				"How do i s/u",
+				"how do i apply my S/u",
+				"where do i go to s/u",
+				"where do i go to to apply my s/u",
+				"what is the link i should visit to apply my s/u",
+				"where should i go to use my s/u",
+				"where should i go to s/u",
+				"how to s/u"
+				
+			],
+			"responses": [
+				"You can make a declaration via the <a href='https://myedurec.nus.edu.sg/psc/cs90prd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?&'>Education Records System</a> (EduRec) (Navigation: Academics > Examinations > Submit S/U Declarations). Your S/U options declared will be final and irrevocable. Do take note of the deadline as you will not be allowed to declare the S/U option after the deadline."
+			]
+		},
+		{
+			"tag": "Number of SU",
+			"patterns": [
+				"How many su can i exercise",
+				"how many su can i use",
+				"how many SU do i have",
+				"how many Su can i carry over",
+				"what are the number of su i am given",
+				"how many su am i given",
+				"what are the number of su i have",
+				"how many su am i allowed to carry over to semester 2",
+				"what are the number of su can i carry over",
+				"how many su can i carry over"
+				
+			],
+			"responses": [
+				"Students may exercise S/U option for up to 32 MCs in the first two regular semesters; if this is not fully utilized, the S/U option may still be exercised in subsequent semesters, for up to 12 MCs. Variations on the limit of S/U options that can be exercised may apply for specific groups of students. <p class='botText'>For more information, please visit <a href='http://www.nus.edu.sg/registrar/academic-activities/satisfactory-unsatisfactory-(s-u)-option'>http://www.nus.edu.sg/registrar/academic-activities/satisfactory-unsatisfactory-(s-u)-option</a>"
 			]
 		},
 		{
