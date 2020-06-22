@@ -1,6 +1,6 @@
 from datetime import date
 import matplotlib.pyplot as plt
-import seaborn as sn
+import seaborn as sns
 import psycopg2
 
 import pandas as pd
@@ -45,9 +45,12 @@ class DataManager():
             '''
         )
 
-        records = self.cursor.fetchall()
-        for row in records:
-            print(row, '\n')
+        df = pd.DataFrame(self.cursor.fetchall(), 
+            columns=['Date', 'Query', 'Tag', 'Relevance']
+            )
+
+        df.to_csv('data/data.csv')
+        return df
 
     def sendEmail(self, TO):
         FROM = "wtvdummyacc@gmail.com"
@@ -76,15 +79,7 @@ class DataManager():
         s.quit()
  
     def analyze(self):
-        self.cursor.execute(
-            '''
-            SELECT * FROM Queries
-            '''
-        )
-
-        df = pd.DataFrame(self.cursor.fetchall(), 
-            columns=['Date', 'Query', 'Tag', 'Relevance']
-            )
+        df = self.viewTable()
 
         df_tag = df[["Tag", "Query"]] \
             .groupby('Tag') \

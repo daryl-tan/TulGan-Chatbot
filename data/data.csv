@@ -1,0 +1,97 @@
+,Date,Query,Tag,Relevance
+0,2020-06-16,how are you,Welcome,True
+1,2020-06-16,how are you,Welcome,True
+2,2020-06-16,goodbye,bye,True
+3,2020-06-16,goodbye,greetings,True
+4,2020-06-16,hello,greeting,True
+5,2020-06-16,nus curriculum,ComCurriculum,True
+6,2020-06-16,how are you,Welcome,True
+7,2020-06-16,how are you,Welcome,True
+8,2020-06-16,test,greeting,True
+9,2020-06-16,when can i apply to nus,Application_window,True
+10,2020-06-17,where is com 2,ComEng,True
+11,2020-06-17,what are the specialisations in CS,cap,True
+12,2020-06-17,daryl testing,greeting,True
+13,2020-06-17,can i declare a major now,major,True
+14,2020-06-17,how do i take up another minor,minor,True
+15,2020-06-17,are there modules that i do not need to take if i get into a rc,minor,True
+16,2020-06-17,what are some modules that i should take first in my first sem ,Appeal_for_higher_ranked_choices,True
+17,2020-06-17,"i heard MA1101R is hard, how can i cope better in that module",Selection_for_admission_to_NUS,True
+18,2020-06-17,hello,greeting,True
+19,2020-06-17,how does the SU system work?,InfoSys,True
+20,2020-06-17,how do plan my modules ,greeting,True
+21,2020-06-17,how to map my modules,greeting,True
+22,2020-06-17,how to juggle well my studies ,defer studies and reserve place,True
+23,2020-06-17,what majors can i have,major,True
+24,2020-06-17,what minors can i have,minor,True
+25,2020-06-17,how many MC can i double count,greeting,True
+26,2020-06-17,do i need to learn programming?,Application_window,True
+27,2020-06-17,how intense is the workload?,greeting,True
+28,2020-06-17,how hard is it to code?,greeting,True
+29,2020-06-17,do i need to have prior programming experience in order to do CS?,InfoSys,True
+30,2020-06-17,what specialisations are there for cs?,greeting,True
+31,2020-06-17,"what is the difference between cs, is, bza and com eng?",ComEng,True
+32,2020-06-17,How do SUs work? ,greeting,True
+33,2020-06-17,where can i learn more about modules? ,greeting,True
+34,2020-06-17,how do I know if i’ve been rejected by nus?,Notification of interview and tests,True
+35,2020-06-17,is there any platform i can receive advice for modules or uni from seniors? ,Appeal_for_other_courses_besides_previous_choices,True
+36,2020-06-17,when do I have to pay school fees by?,Online_submission_of_supporting_documents_payment_application_fee,True
+37,2020-06-17,can i still change my course now?,Appeal_to_change_course_after_being_offered,True
+38,2020-06-17,what cca options are there in nus?,cap,True
+39,2020-06-17,when does school start? ,Application_window,True
+40,2020-06-17,how do we register for modules? ,greeting,True
+41,2020-06-17,what are some modules that i should take first in my first sem ,Appeal_for_higher_ranked_choices,True
+42,2020-06-17,how do i take up another minor,minor,True
+43,2020-06-17,can i declare a major now,major,True
+44,2020-06-17,where is com 2,ComEng,True
+45,2020-06-17,what are the specialisations in CS,cap,True
+46,2020-06-18,nus curriculum,ComCurriculum,True
+47,2020-06-18,nus curriculum,ComCurriculum,True
+48,2020-06-18,U,greeting,True
+49,2020-06-18,Where is SoC,greeting,True
+50,2020-06-18,Why SoC,greeting,True
+51,2020-06-18,What IS IS,options,True
+52,2020-06-18,What’s the cap,cap,True
+53,2020-06-18,What's the cut off point to get into Information Systems,InfoSys,True
+54,2020-06-18,Where can I accept my offer?,NSmen_accepted_offer,True
+55,2020-06-18,What's the difference between Computer Science and Information Systems,ComSci,True
+56,2020-06-18,How well must I do to get into Business Analytics,BZA,True
+57,2020-06-18,What's the school fees for Information Security,InfoSec,True
+58,2020-06-18,What are the scholarship programmes available,NUS_Scholarship_interview,True
+59,2020-06-18,When is the camp dates?,greeting,True
+60,2020-06-18,How can I join a camp?,greeting,True
+61,2020-06-18,Is there any pre-requisite to join Computer Science,ComSci,True
+62,2020-06-18,How hard is it to get into Business Analytics,BZA,True
+63,2020-06-18,What specialisations do you offer for Information Systems,InfoSys,True
+64,2020-06-18,When are the holidays?,Application_window,True
+65,2020-06-18,How do I apply to NUS Computing,Application_window,True
+66,2020-06-18,daryl test start ,greeting,True
+67,2020-06-18,computing,ComSci,True
+68,2020-06-18,nus curriculum,ComCurriculum,True
+69,2020-06-18,nus curriculum,ComCurriculum,True
+70,2020-06-18,nus curriculum,ComCurriculum,True
+71,2020-06-18,nus curriculum,ComCurriculum,True
+72,2020-06-18,computing,ComSci,True
+73,2020-06-18,hello,greeting,True
+74,2020-06-18,nus curriculum,ComCurriculum,True
+75,2020-06-18,nus curriculum,ComCurriculum,True
+76,2020-06-18,nus curriculum,ComCurriculum,True
+77,2020-06-18,nus curriculum,ComCurriculum,True
+78,2020-06-18,nus curriculum,ComCurriculum,True
+79,2020-06-18,nus curriculum,ComCurriculum,True
+80,2020-06-18,nus curriculum,ComCurriculum,True
+81,2020-06-18,hello,greeting,True
+82,2020-06-18,when can i apply to nus,Application_window,True
+83,2020-06-18,hello,greeting,True
+84,2020-06-18,hi,greeting,True
+85,2020-06-18,hello,greeting,True
+86,2020-06-19,hi is computing fun,ComSci,True
+87,2020-06-19,is it difficult,greeting,True
+88,2020-06-21,What is the normal workload for computing students?,greeting,True
+89,2020-06-21,When do we choose our specialization?,Application_window,True
+90,2020-06-21,What is the rank point required to enter computing?,Minimum_marks_admission,True
+91,2020-06-21,Can I transfer to another faculty if I’m not interested?,goodbye,True
+92,2020-06-21,Where is I3?,greeting,True
+93,2020-06-21,Where is LT 17,greeting,True
+94,2020-06-21,How long is Com science degree?,ComSci,True
+95,2020-06-21,What can i minor in?,minor,True
