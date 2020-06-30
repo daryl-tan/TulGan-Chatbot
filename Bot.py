@@ -95,6 +95,5 @@ class Bot():
             lst.append((self.classes[r[0]], r[1]))
         return lst[0]
 
-    def sendEmail(self):
-        TO = input("Please enter your email: ")
+    def sendEmail(self, TO):
         self.dataManager.sendEmail(TO)
