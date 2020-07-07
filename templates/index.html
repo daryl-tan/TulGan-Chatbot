@@ -42,7 +42,12 @@
 					>
 						<div class="bot-msg">
 							<p class="botText">
-								<span>Hi, how may I assist you?</span>
+								<span
+									>Hello, I am a chatbot designed to answer
+									questions that may be asked by freshmen
+									entering NUS School of Computing. How may I
+									assist you today?</span
+								>
 							</p>
 						</div>
 					</div>
@@ -77,20 +82,22 @@
 		<script>
 			function getResponse() {
 				let userText = $("#textInput").val();
-				let userHtml =
-					'<div class="user-msg"><p class="userText"><span>' +
-					userText +
-					"</span></p></div>";
-				$("#textInput").val("");
-				$("#chatbox").append(userHtml);
-				$.get("/process", { msg: userText }).done(function (data) {
-					var botHtml =
-						'<div class="bot-msg"><p class="botText"><span>' +
-						data +
+				if (userText.length > 0) {
+					let userHtml =
+						'<div class="user-msg"><p class="userText"><span>' +
+						userText +
 						"</span></p></div>";
-					$("#chatbox").append(botHtml);
-					$("#chatbox").scrollTop(10000000000);
-				});
+					$("#textInput").val("");
+					$("#chatbox").append(userHtml);
+					$.get("/process", { msg: userText }).done(function (data) {
+						var botHtml =
+							'<div class="bot-msg"><p class="botText"><span>' +
+							data +
+							"</span></p></div>";
+						$("#chatbox").append(botHtml);
+						$("#chatbox").scrollTop(10000000000);
+					});
+				}
 			}
 
 			$("#textInput").keypress(function (e) {
