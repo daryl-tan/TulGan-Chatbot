@@ -80,6 +80,22 @@
 			</div>
 		</div>
 		<script>
+			function getFeedback() {
+				var satisfaction =
+					'<div class="bot-msg"><p class="botText"><span>' +
+					"Thank you for your question! May I know if I answered your question?" +
+					"</span></p></div>";
+				var feedbackBtn =
+					'<div class="bot-msg">' +
+					'<button class="btn" type="submit" id="upBtn" style=" background-color: #efefef; color: #646464; border-color: #fff;">' +
+					'<i class="fa fa-thumbs-up"> </i>' +
+					'<button class="btn" type="submit" id="downBtn" style=" background-color: #efefef; color: #646464; border-color: #fff">' +
+					'<i class="fa fa-thumbs-down"> </i>' +
+					"</button></button></div>";
+				$("#chatbox").append(satisfaction);
+				$("#chatbox").append(feedbackBtn);
+			}
+
 			function getResponse() {
 				let userText = $("#textInput").val();
 				if (userText.length > 0) {
@@ -95,6 +111,7 @@
 							data +
 							"</span></p></div>";
 						$("#chatbox").append(botHtml);
+						getFeedback();
 						$("#chatbox").scrollTop(10000000000);
 					});
 				}
