@@ -80,7 +80,7 @@ class Bot():
                     return "May I enquire which faculty are you referring to?" 
                 
                 if 'context_set' in i:
-                    self.context = i['context_set']
+                    self.context = i['context_set'][0]
                     if not test:
                         self.dataManager.store(inpt, result[0])
                         return (random.choice(i['responses']))
@@ -94,7 +94,7 @@ class Bot():
                     else:
                         return i["tag"]
                 
-                elif ('context_cond' in i and i['context_cond'] == self.context):
+                elif ('context_cond' in i and i['context_cond'][0] == self.context):
                     self.previous = None
                     if not test:
                         self.dataManager.store(inpt, result[0])
