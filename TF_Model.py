@@ -85,7 +85,7 @@ model.compile(loss='categorical_crossentropy',
 
 
 model.fit(np.array(train_x), np.array(train_y),
-          epochs=1000, batch_size=5, verbose=1)
+          epochs=500, batch_size=5, verbose=1)
 model.save("model.tflearn")
 
 

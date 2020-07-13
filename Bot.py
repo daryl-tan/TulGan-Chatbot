@@ -38,7 +38,7 @@ class Bot():
                     bag[i] = 1
         return pd.DataFrame([np.array(bag)], dtype=float, index=['input'])
 
-    def contextualize(self, inpt):
+    def contextualize(self, inpt, test):
         inpt_words = nltk.word_tokenize(inpt)
         inpt_words = [word.lower() for word in inpt_words]
         for word in inpt_words:
@@ -46,7 +46,7 @@ class Bot():
                 if word in var:
                     self.context = entity
                     self.settingContext = False 
-                    return self.respond(self.previous)
+                    return self.respond(self.previous, test)
 
     def isContextualize(self, inpt):
         inpt_words = nltk.word_tokenize(inpt)
@@ -58,12 +58,12 @@ class Bot():
                     return False
         return True
             
-    def respond(self, inpt):
+    def respond(self, inpt, test=False):
         assert type(inpt) == str, "Input parameter must be String for respond."
-        THRESHOLD = 0.7
+        THRESHOLD = 0.2
 
         if self.settingContext and self.previous and self.context == None:
-            return self.contextualize(inpt)
+            return self.contextualize(inpt, test)
         
         result = self.classify(inpt)
         if result[1] < THRESHOLD:
@@ -71,6 +71,8 @@ class Bot():
   
         for i in self.intents['intents']:
             if i['tag'] == result[0]:
+                if test:
+                    print("Accuracy Rate: ", result[1], " Tag:", result[0])
 
                 if 'context_cond' in i and self.context == None and self.isContextualize(inpt):
                     self.settingContext = True
@@ -79,17 +81,26 @@ class Bot():
                 
                 if 'context_set' in i:
                     self.context = i['context_set']
-                    self.dataManager.store(inpt, result[0])
-                    return (random.choice(i['responses']))
+                    if not test:
+                        self.dataManager.store(inpt, result[0])
+                        return (random.choice(i['responses']))
+                    else:
+                        return i["tag"]
 
                 elif not 'context_cond' in i:
-                    self.dataManager.store(inpt, result[0])
-                    return (random.choice(i['responses']))
+                    if not test:
+                        self.dataManager.store(inpt, result[0])
+                        return (random.choice(i['responses']))
+                    else:
+                        return i["tag"]
                 
-                elif ('context_cond' in i and i['context_cond'][0] == self.context):
+                elif ('context_cond' in i and i['context_cond'] == self.context):
                     self.previous = None
-                    self.dataManager.store(inpt, result[0])
-                    return (random.choice(i['responses']))
+                    if not test:
+                        self.dataManager.store(inpt, result[0])
+                        return (random.choice(i['responses']))
+                    else:
+                        return i["tag"]
 
     def classify(self, inpt):
         results = self.model.predict([self.bow(inpt)])[0]
