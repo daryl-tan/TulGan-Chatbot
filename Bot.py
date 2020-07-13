@@ -48,7 +48,7 @@ class Bot():
                     self.settingContext = False 
                     return self.respond(self.previous)
 
-    def iscontextualize(self, inpt):
+    def isContextualize(self, inpt):
         inpt_words = nltk.word_tokenize(inpt)
         inpt_words = [word.lower() for word in inpt_words]
         for word in inpt_words:
@@ -59,41 +59,45 @@ class Bot():
         return True
             
     def respond(self, inpt):
+        assert type(inpt) == str, "Input parameter must be String for respond."
+        THRESHOLD = 0.7
+
         if self.settingContext and self.previous and self.context == None:
             return self.contextualize(inpt)
         
-        results = self.classify(inpt)
-
+        result = self.classify(inpt)
+        if result[1] < THRESHOLD:
+            result[0] = "noanswer"
+        print("Accuracy Rate: ", result[1])
         for i in self.intents['intents']:
-            if i['tag'] == results[0]:
+            if i['tag'] == result[0]:
 
-                if 'context_cond' in i and self.context == None and self.iscontextualize(inpt):
+                if 'context_cond' in i and self.context == None and self.isContextualize(inpt):
                     self.settingContext = True
                     self.previous = inpt
                     return "May I enquire which faculty are you referring to?" 
                 
                 if 'context_set' in i:
                     self.context = i['context_set']
-                    self.dataManager.store(inpt, results[0])
+                    self.dataManager.store(inpt, result[0])
                     return (random.choice(i['responses']))
 
                 elif not 'context_cond' in i:
-                    self.dataManager.store(inpt, results[0])
+                    self.dataManager.store(inpt, result[0])
                     return (random.choice(i['responses']))
                 
                 elif ('context_cond' in i and i['context_cond'][0] == self.context):
                     self.previous = None
-                    self.dataManager.store(inpt, results[0])
+                    self.dataManager.store(inpt, result[0])
                     return (random.choice(i['responses']))
 
     def classify(self, inpt):
         results = self.model.predict([self.bow(inpt)])[0]
         results = [[i, r] for i, r in enumerate(results)]
         results.sort(key=lambda x: x[1], reverse = True)
-        lst = []
-        for r in results:
-            lst.append((self.classes[r[0]], r[1]))
-        return lst[0]
+        answer = [self.classes[results[0][0]], results[0][1]] 
+        return answer
 
     def sendEmail(self, TO):
+        assert type(TO) == str, "Input parameter must be String for respond."
         self.dataManager.sendEmail(TO)

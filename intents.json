@@ -53,9 +53,9 @@
 			"tag": "noanswer",
 			"patterns": [],
 			"responses": [
-				"Sorry, can't understand you",
-				"Please give me more info",
-				"Not sure I understand."
+				"Sorry, I could not understand you.",
+				"Not sure if I understand.",
+				"Sorry I could not quite understand that."
 			]
 		},
 		{
@@ -65,7 +65,8 @@
 				"What you can do?",
 				"What help you provide?",
 				"How you can be helpful?",
-				"What support is offered"
+				"What support is offered",
+				"what can you do"
 			],
 			"responses": [
 				"I can guide you through the NUS admission process or any questions relating to NUS Computing which you might have."
@@ -81,7 +82,11 @@
 				"What is the curriculum structure in nus computing?",
 				"How is the curriculum structure in NUS computing?",
 				"What is the curriculum structure in nus comp?",
-				"How is the curriculum structure in NUS com?"
+				"How is the curriculum structure in NUS com?",
+				"what is the graduation requirements",
+				"graduation requirements",
+				"what is nus graduation requirements",
+				"what is the graduation requirements for computing"
 			],
 			"responses": [
 				"For a single degree, you will have to complete 160 modular credits (MC) and for a double degree, you will have to complete around 200 MC. The 160 MC is broken down into: 20 MC for University Level Requirements, 72 MC for Core Modules, 24 MC for Elective Modules,12 MC for Dissertation or Industry Internship Programme and the remaining 32MC is for Unrestricted Electives (UE). For poly-intake, 20MC is automatically awarded for UE. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/'>https://www.comp.nus.edu.sg/programmes/</a>"
@@ -92,6 +97,10 @@
 			"tag": "ComSci",
 			"patterns": [
 				"Computer Science",
+				"i want to learn more about computer science",
+				"what is computer science",
+				"tell me about computer science",
+				"what's computer science",
 				"How is computer science like",
 				"can you explain to me more about computer science",
 				"why computer science",
@@ -114,6 +123,10 @@
 		{
 			"tag": "InfoSys",
 			"patterns": [
+				"what's information system",
+				"i want to learn more about information system",
+				"tell me about information system",
+				"what is information system",
 				"information system",
 				"How is information system like",
 				"can you explain to me more about information system",
@@ -138,6 +151,10 @@
 			"tag": "ComEng",
 			"patterns": [
 				"Computer Engineering",
+				"i want to learn more about computer engineering",
+				"tell me about Computer Engineering",
+				"what is computer engineering",
+				"waht's computer engineering",
 				"How is computer Engineering like",
 				"can you explain to me more about computer Engineering",
 				"why computer Engineering",
@@ -161,6 +178,10 @@
 			"tag": "BZA",
 			"patterns": [
 				"Business analytics",
+				"i want to learn more about business analytics",
+				"tell me about business analytics",
+				"what is business analytics",
+				"what's business analytics",
 				"How is business analytics like",
 				"can you explain to me more about business analytics",
 				"why business analytics",
@@ -184,6 +205,9 @@
 			"tag": "InfoSec",
 			"patterns": [
 				"information security",
+				"what is information security",
+				"what's information security",
+				"i want to learn more about information security",
 				"How is information security like",
 				"can you explain to me more about information security",
 				"why information security",
@@ -224,6 +248,10 @@
 		{
 			"tag": "ComCourses",
 			"patterns": [
+				"tell me about nus computing",
+				"how many focus area in computing",
+				"what are the focus area in nus computing",
+				"how many focus area does school of computing focuses on",
 				"what are the courses available at computing",
 				"courses offered by computing",
 				"types of courses in computing",
@@ -253,7 +281,14 @@
 				"programme by comp",
 				"programme available at computing",
 				"programme available at com",
-				"programme available at comp"
+				"programme available at comp",
+				"school of computing",
+				"computing",
+				"what majors are there in computing",
+				"what are the different types of major offered by computing",
+				"what are the majors that is available in computing",
+				"what are the majors that is offered by computing",
+				"soc"
 			],
 			"responses": [
 				"At NUS Computing, we offer a myriad of programmes such as Computer Science, Computer Engineering, Information Security, Information System and Business Analytics. These programmes will equipped you with the necessary skills to be an entrepreneur, scientist, designer or business executive. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/'>https://www.comp.nus.edu.sg/programmes/</a>"
@@ -350,6 +385,10 @@
 				"When does the application window open",
 				"When do i apply for admission to NUS",
 				"application window",
+				"when can i apply",
+				"when can i apply to nus",
+				"when is the deadline for application",
+				"when is the application deadline",
 				"when is the application window"
 			],
 			"responses": [
