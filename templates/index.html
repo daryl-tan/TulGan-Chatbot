@@ -91,7 +91,7 @@
 					$("#chatbox").append(userHtml);
 					$.get("/process", { msg: userText }).done(function (data) {
 						var botHtml =
-							'<div class="bot-msg"><p class="botText"><span>' +
+							'<div class="bot-msg" id="botmsg"><p class="botText"><span>' +
 							data +
 							"</span></p></div>";
 						$("#chatbox").append(botHtml);

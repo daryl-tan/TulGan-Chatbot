@@ -68,7 +68,7 @@ class Bot():
         result = self.classify(inpt)
         if result[1] < THRESHOLD:
             result[0] = "noanswer"
-        print("Accuracy Rate: ", result[1])
+  
         for i in self.intents['intents']:
             if i['tag'] == result[0]:
 
