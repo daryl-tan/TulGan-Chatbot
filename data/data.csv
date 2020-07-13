@@ -125,3 +125,329 @@
 123,2020-06-26,What’s computing school,ComSci,True
 124,2020-06-26,What’s Informations systems,InfoSys,True
 125,2020-06-26,What’s fintech,greeting,True
+126,2020-06-29,tell me about nus,greeting,True
+127,2020-06-29,what is nus like,greeting,True
+128,2020-06-29,computing,ComSci,True
+129,2020-06-29,what focus areas are there,greeting,True
+130,2020-06-29,tell me about business analytics,BZA,True
+131,2020-06-29,tell me about nus,greeting,True
+132,2020-06-29,a level scores ,Minimum_marks_admission,True
+133,2020-06-29,tell me about nus,greeting,True
+134,2020-06-29,how many focus area computing,ComEng,True
+135,2020-06-29,how long,greeting,True
+136,2020-06-29,how many years of study,defer studies and reserve place,True
+137,2020-06-29,computer science modules,ComSci,True
+138,2020-06-29,linear algebra,greeting,True
+139,2020-06-30,I want to learn more about computing,ComEng,True
+140,2020-06-30,hello,greeting,True
+141,2020-06-30,good day,greeting,True
+142,2020-06-30,graduation requirements,greeting,True
+143,2020-06-30,what are the graduation requirements ,options,True
+144,2020-06-30,what school,greeting,True
+145,2020-06-30,nus law,greeting,True
+146,2020-06-30,nus business analytics,BZA,True
+147,2020-06-30,business,BZA,True
+148,2020-06-30,business admin,BZA,True
+149,2020-06-30,soc,greeting,True
+150,2020-06-30,SoC,greeting,True
+151,2020-06-30,raffles hall,greeting,True
+152,2020-06-30,hall,greeting,True
+153,2020-06-30,computing,ComSci,True
+154,2020-06-30,science,ComSci,True
+155,2020-06-30,biology,greeting,True
+156,2020-06-30,cs1010s,greeting,True
+157,2020-06-30,cs2030,greeting,True
+158,2020-06-30,cs2040,greeting,True
+159,2020-06-30,hard,greeting,True
+160,2020-06-30,USC,greeting,True
+161,2020-06-30,fees,tuition_fee,True
+162,2020-06-30,bus,greeting,True
+163,2020-06-30,shuttle bus,greeting,True
+164,2020-06-30,real estate,greeting,True
+165,2020-06-30,marketing analytics,BZA,True
+166,2020-06-30,nus,greeting,True
+167,2020-06-30,video,greeting,True
+168,2020-06-30,science,ComSci,True
+169,2020-06-30,national university of singapore,greeting,True
+170,2020-06-30,how,greeting,True
+171,2020-06-30,business,BZA,True
+172,2020-06-30,focus area,greeting,True
+173,2020-06-30,cca,greeting,True
+174,2020-06-30,rank points,Ranking_of_course_choices,True
+175,2020-06-30,halls,greeting,True
+176,2020-06-30,workload,greeting,True
+177,2020-06-30,what can you even do,options,True
+178,2020-06-30,computer science,ComSci,True
+179,2020-06-30,computer science gay,ComSci,True
+180,2020-06-30,compu,greeting,True
+181,2020-06-30,c,greeting,True
+182,2020-06-30,admin,greeting,True
+183,2020-06-30,compu,greeting,True
+184,2020-06-30,comput,ComSci,True
+185,2020-06-30,bus,greeting,True
+186,2020-06-30,busi,greeting,True
+187,2020-06-30,busin,greeting,True
+188,2020-06-30,busine,greeting,True
+189,2020-06-30,busines,greeting,True
+190,2020-06-30,business,BZA,True
+191,2020-06-30,analy,greeting,True
+192,2020-06-30,analyt,greeting,True
+193,2020-06-30,analyti,greeting,True
+194,2020-06-30,work,greeting,True
+195,2020-06-30,can this work,greeting,True
+196,2020-06-30,how does this work,greeting,True
+197,2020-06-30,what u do,options,True
+198,2020-06-30,do,greeting,True
+199,2020-06-30,can u  do,options,True
+200,2020-06-30,process,Admission_into_special_courses,True
+201,2020-06-30,admissions,Aptitude-based_admissions,True
+202,2020-06-30,hello,greeting,True
+203,2020-06-30,you can't,greeting,True
+204,2020-06-30,S/U,greeting,True
+205,2020-06-30,SU,greeting,True
+206,2020-06-30,declaration,greeting,True
+207,2020-06-30,money,greeting,True
+208,2020-06-30,how do i get out of depression,greeting,True
+209,2020-06-30,what can you do,options,True
+210,2020-06-30,admission,Aptitude-based_admissions,True
+211,2020-06-30,NUS computing,ComEng,True
+212,2020-06-30,Internet of Things,greeting,True
+213,2020-06-30,NUS Computer Science,ComSci,True
+214,2020-06-30,Hello,greeting,True
+215,2020-06-30,Boobs,greeting,True
+216,2020-06-30,How can I go,greeting,True
+217,2020-06-30,computer,ComSci,True
+218,2020-06-30,computing,ComSci,True
+219,2020-06-30,school of computing,ComSci,True
+220,2020-06-30,fees,tuition_fee,True
+221,2020-06-30,scholarship,NUS_Scholarship_interview,True
+222,2020-06-30,how do i get scholarship,NUS_Scholarship_interview,True
+223,2020-06-30,computing,ComSci,True
+224,2020-06-30,how about FASS?,greeting,True
+225,2020-06-30,hyello,greeting,True
+226,2020-06-30,when can i apply to nus,Application_window,True
+227,2020-06-30,hello,greeting,True
+228,2020-07-01,daryl test,greeting,True
+229,2020-07-01,when can i apply to nus ,Application_window,True
+230,2020-07-01,when can i apply to nus,Application_window,True
+231,2020-07-01,when can i apply to nus,Application_window,True
+232,2020-07-01,when can i apply to nus,Application_window,True
+233,2020-07-01,when can i apply to nus,Application_window,True
+234,2020-07-01,when can i apply to nus,Application_window,True
+235,2020-07-01,when can i apply to nus,Application_window,True
+236,2020-07-01,hello,greeting,True
+237,2020-07-01,why nus,greeting,True
+238,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+239,2020-07-01,business analytics,BZA,True
+240,2020-07-01,hello,greeting,True
+241,2020-07-01,when can i apply to nus,Application_window,True
+242,2020-07-01,when can i apply to nus,Application_window,True
+243,2020-07-01,when can i apply to nus,Application_window,True
+244,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+245,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+246,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+247,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+248,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+249,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+250,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+251,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+252,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+253,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+254,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+255,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+256,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+257,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+258,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+259,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+260,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+261,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+262,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+263,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+264,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+265,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
+266,2020-07-01,when can i apply to nus,Application_window,True
+267,2020-07-01,hello,greeting,True
+268,2020-07-01,what is NUS like,greeting,True
+269,2020-07-01,what are the graduation requirements for computing,ComEng,True
+270,2020-07-01,what are the graduation requirements for arts,options,True
+271,2020-07-01,how do I apply,Application_window,True
+272,2020-07-01,when is the deadline,greeting,True
+273,2020-07-01,when can i apply to nus,Application_window,True
+274,2020-07-01,Number.MAX_SAFE_INTEGER,greeting,True
+275,2020-07-01,when can i apply to nus,Application_window,True
+276,2020-07-01,when can i apply to bus,Application_window,True
+277,2020-07-01,when can i apply to nus,Application_window,True
+278,2020-07-01,http://tulgan.herokuapp.com/,greeting,True
+279,2020-07-01,when can i apply to nus,Application_window,True
+280,2020-07-01,when can i apply to nus,Application_window,True
+281,2020-07-01,when can i apply to nus,Application_window,True
+282,2020-07-01,when can I apply to nus,Application_window,True
+283,2020-07-01,when can I apply to nus,Application_window,True
+284,2020-07-01,hello,greeting,True
+285,2020-07-01,hello,greeting,True
+286,2020-07-01,when can I apply to nus,Application_window,True
+287,2020-07-01,when can I apply to nus,Application_window,True
+288,2020-07-01,hello,greeting,True
+289,2020-07-01,when can i apply to nus,Application_window,True
+290,2020-07-01,when can i apply to nus ,Application_window,True
+291,2020-07-01,when can i apply to nus,Application_window,True
+292,2020-07-01,when can i apply to nus,Application_window,True
+293,2020-07-01,when can I apply to nus,Application_window,True
+294,2020-07-01,when can I apply to nus,Application_window,True
+295,2020-07-01,when can I apply to nus,Application_window,True
+296,2020-07-01,when can i apply to nus,Application_window,True
+297,2020-07-01,when can i apply to nus,Application_window,True
+298,2020-07-01,when can i apply to nus,Application_window,True
+299,2020-07-01,when can i apply to nus,Application_window,True
+300,2020-07-01,when can i apply to nus,Application_window,True
+301,2020-07-04,hi,greeting,True
+302,2020-07-04,hi,greeting,True
+303,2020-07-04,hi,greeting,True
+304,2020-07-04,nus curriculum,ComCurriculum,True
+305,2020-07-04,nus curriculum,ComCurriculum,True
+306,2020-07-04,nus curriculum,ComCurriculum,True
+307,2020-07-04,nus curriculum,ComCurriculum,True
+308,2020-07-04,nus curriculum,ComCurriculum,True
+309,2020-07-04,when can i apply to nus,Application_window,True
+310,2020-07-04,business analytics,BZA,True
+311,2020-07-04,hello,greeting,True
+312,2020-07-04,business analytics ,BZA,True
+313,2020-07-04,business analytics,BZA,True
+314,2020-07-04,hello,greeting,True
+315,2020-07-04,when can i apply to nus,Application_window,True
+316,2020-07-04,hello,greeting,True
+317,2020-07-04,hello,greeting,True
+318,2020-07-04,hello,greeting,True
+319,2020-07-04,hello,greeting,True
+320,2020-07-04,hello,greeting,True
+321,2020-07-04,hello,greeting,True
+322,2020-07-04,hello,greeting,True
+323,2020-07-04,hello,greeting,True
+324,2020-07-04,hello,greeting,True
+325,2020-07-04,hello,greeting,True
+326,2020-07-04,hello,greeting,True
+327,2020-07-04,hello,greeting,True
+328,2020-07-04,hello,greeting,True
+329,2020-07-04,hello,greeting,True
+330,2020-07-04,hello,greeting,True
+331,2020-07-04,hello,greeting,True
+332,2020-07-04,hello,greeting,True
+333,2020-07-04,hello,greeting,True
+334,2020-07-04,hello,greeting,True
+335,2020-07-04,hello,greeting,True
+336,2020-07-04,hello,greeting,True
+337,2020-07-04,hello,greeting,True
+338,2020-07-04,hello,greeting,True
+339,2020-07-04,hello,greeting,True
+340,2020-07-04,hello,greeting,True
+341,2020-07-04,hello,greeting,True
+342,2020-07-04,hello,greeting,True
+343,2020-07-04,hello,greeting,True
+344,2020-07-04,hello,greeting,True
+345,2020-07-04,business analytics,BZA,True
+346,2020-07-04,business analytics,BZA,True
+347,2020-07-04,business analytics,BZA,True
+348,2020-07-04,business analytics,BZA,True
+349,2020-07-04,business analytics,BZA,True
+350,2020-07-04,nus curriculum,ComCurriculum,True
+351,2020-07-04,nus curriculum,ComCurriculum,True
+352,2020-07-04,nus curriculum,ComCurriculum,True
+353,2020-07-04,nus curriculum,ComCurriculum,True
+354,2020-07-04,hello,greeting,True
+355,2020-07-04,why,greeting,True
+356,2020-07-04,nus curriculum,ComCurriculum,True
+357,2020-07-04,curriculum,ComCurriculum,True
+358,2020-07-04,fuck you,greeting,True
+359,2020-07-04,,greeting,True
+360,2020-07-04,,greeting,True
+361,2020-07-04,,greeting,True
+362,2020-07-04,,greeting,True
+363,2020-07-04,,greeting,True
+364,2020-07-04,,greeting,True
+365,2020-07-04,,greeting,True
+366,2020-07-04,,greeting,True
+367,2020-07-04,,greeting,True
+368,2020-07-04,,greeting,True
+369,2020-07-04,,greeting,True
+370,2020-07-04,,greeting,True
+371,2020-07-04,,greeting,True
+372,2020-07-04,,greeting,True
+373,2020-07-04,,greeting,True
+374,2020-07-04,,greeting,True
+375,2020-07-04,,greeting,True
+376,2020-07-04,,greeting,True
+377,2020-07-04,,greeting,True
+378,2020-07-04,,greeting,True
+379,2020-07-04,,greeting,True
+380,2020-07-04,,greeting,True
+381,2020-07-04,,greeting,True
+382,2020-07-04,,greeting,True
+383,2020-07-04,,greeting,True
+384,2020-07-04,,greeting,True
+385,2020-07-04,,greeting,True
+386,2020-07-04,,greeting,True
+387,2020-07-04,,greeting,True
+388,2020-07-04,,greeting,True
+389,2020-07-04,,greeting,True
+390,2020-07-04,,greeting,True
+391,2020-07-04,,greeting,True
+392,2020-07-04,,greeting,True
+393,2020-07-04,,greeting,True
+394,2020-07-04,,greeting,True
+395,2020-07-04,,greeting,True
+396,2020-07-04,,greeting,True
+397,2020-07-05,hi,greeting,True
+398,2020-07-05,hi,greeting,True
+399,2020-07-05,courses in nus,Selection_for_admission_to_NUS,True
+400,2020-07-05,computing science,ComSci,True
+401,2020-07-05,computing science difficult,ComSci,True
+402,2020-07-05,yo,greeting,True
+403,2020-07-05,wassup,greeting,True
+404,2020-07-05,wassupppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,greeting,True
+405,2020-07-05,wasupppppp,greeting,True
+406,2020-07-05,1*2,greeting,True
+407,2020-07-05,How do i apply,Application_window,True
+408,2020-07-05,what courses are there for data science,ComSci,True
+409,2020-07-05,how about in fass,cap,True
+410,2020-07-05,can i see engineering,ComEng,True
+411,2020-07-05,goodbye,goodbye,True
+412,2020-07-05,u too,greeting,True
+413,2020-07-05,computer science information systems,ComSci,True
+414,2020-07-05,""" computing",ComSci,True
+415,2020-07-05,'computing',greeting,True
+416,2020-07-05,' information,InfoSec,True
+417,2020-07-05,'business',greeting,True
+418,2020-07-05,',greeting,True
+419,2020-07-05,fffff,greeting,True
+420,2020-07-05,/help,greeting,True
+421,2020-07-05,help,options,True
+422,2020-07-05,who can I contact for information about admissions,InfoSys,True
+423,2020-07-05,what specialisations are there in science,ComSci,True
+424,2020-07-05,analytics,BZA,True
+425,2020-07-05,economics,greeting,True
+426,2020-07-05,{},greeting,True
+427,2020-07-05,\\,greeting,True
+428,2020-07-05,// config/db.js module.exports = { uri : 'postgresdb://localhost/acquisition' },greeting,True
+429,2020-07-05,"""computing""",ComSci,True
+430,2020-07-05,' business,BZA,True
+431,2020-07-05,hi,greeting,True
+432,2020-07-05,hi,greeting,True
+433,2020-07-05,hi,greeting,True
+434,2020-07-05,hi,greeting,True
+435,2020-07-05,hi,greeting,True
+436,2020-07-07,,greeting,True
+437,2020-07-07,,greeting,True
+438,2020-07-07,,greeting,True
+439,2020-07-07,,greeting,True
+440,2020-07-07,hello,greeting,True
+441,2020-07-07, ,greeting,True
+442,2020-07-07,when can i apply to nus,Application_window,True
+443,2020-07-07,daryl test start,greeting,True
+444,2020-07-07,daryl test,greeting,True
+445,2020-07-07,hello,greeting,True
+446,2020-07-07,new test,greeting,True
+447,2020-07-07,hello heloo hellooooo,greeting,True
+448,2020-07-07,new test,greeting,True
+449,2020-07-07,hello,greeting,True
+450,2020-07-07,when can i apply to nus,Application_window,True
+451,2020-07-07,thanks,thanks,True
