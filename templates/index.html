@@ -81,18 +81,19 @@
 		</div>
 		<script>
 			function getFeedback() {
-				var satisfaction =
+				/*var satisfaction =
 					'<div class="bot-msg"><p class="botText"><span>' +
 					"Thank you for your question! May I know if I answered your question?" +
-					"</span></p></div>";
+                    "</span></p></div>";
+                    */
 				var feedbackBtn =
 					'<div class="bot-msg">' +
-					'<button class="btn" type="submit" id="upBtn" style=" background-color: #efefef; color: #646464; border-color: #fff;">' +
+					'<button class="btn" type="submit" id="upBtn" style="background-color: #efefef; color: #646464; border-color: #fff;" title="Response was accurate.">' +
 					'<i class="fa fa-thumbs-up"> </i>' +
-					'<button class="btn" type="submit" id="downBtn" style=" background-color: #efefef; color: #646464; border-color: #fff">' +
+					'<button class="btn" type="submit" id="downBtn" style="background-color: #efefef; color: #646464; border-color: #fff" title="Response was inaccurate.">' +
 					'<i class="fa fa-thumbs-down"> </i>' +
 					"</button></button></div>";
-				$("#chatbox").append(satisfaction);
+				//$("#chatbox").append(satisfaction);
 				$("#chatbox").append(feedbackBtn);
 			}
 
