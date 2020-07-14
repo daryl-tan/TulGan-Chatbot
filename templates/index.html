@@ -101,14 +101,14 @@
 				let userText = $("#textInput").val();
 				if (userText.length > 0) {
 					let userHtml =
-						'<div class="user-msg"><p class="userText"><span>' +
+						'<div class="user-msg" id="usermsg"><p class="userText"><span>' +
 						userText +
 						"</span></p></div>";
 					$("#textInput").val("");
 					$("#chatbox").append(userHtml);
 					$.get("/process", { msg: userText }).done(function (data) {
 						var botHtml =
-							'<div class="bot-msg"><p class="botText"><span>' +
+							'<div class="bot-msg" id="botmsg"><p class="botText"><span>' +
 							data +
 							"</span></p></div>";
 						$("#chatbox").append(botHtml);

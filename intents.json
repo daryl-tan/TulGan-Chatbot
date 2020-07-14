@@ -287,8 +287,7 @@
 				"what majors are there in computing",
 				"what are the different types of major offered by computing",
 				"what are the majors that is available in computing",
-				"what are the majors that is offered by computing",
-				"soc"
+				"what are the majors that is offered by computing"
 			],
 			"responses": [
 				"At NUS Computing, we offer a myriad of programmes such as Computer Science, Computer Engineering, Information Security, Information System and Business Analytics. These programmes will equipped you with the necessary skills to be an entrepreneur, scientist, designer or business executive. <p class='botText'>For more information, please visit <a href='https://www.comp.nus.edu.sg/programmes/'>https://www.comp.nus.edu.sg/programmes/</a>"
@@ -319,6 +318,7 @@
 				"Required number of MC for major?",
 				"To take a major, how many modular credits do I need?",
 				"How many modular credits do I need to do a major?",
+				"how many modular credits do i need for a major",
 				"modular credits required for a major?",
 				"Required number of modular credits for major?",
 				"To take a major, how many modular credits do I need?"
