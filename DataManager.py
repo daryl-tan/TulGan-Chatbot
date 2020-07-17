@@ -27,7 +27,7 @@ class DataManager():
     def __init__(self):
         self.cursor = connection.cursor()
 
-    def store(self, inpt, tag, relevance=True):
+    def store(self, inpt, tag, relevance=None):
         self.cursor.execute(insert_query, 
             (
                 date.today(),
@@ -38,10 +38,22 @@ class DataManager():
         )
         connection.commit()
 
+        
+    def vote(self, relevance):
+        self.cursor.execute(
+            '''
+            UPDATE Queries
+            SET relevant = %s
+            WHERE id = (SELECT MAX(id) FROM Queries)
+            ''', [relevance]
+        )
+        connection.commit()
+
     def viewTable(self):
         self.cursor.execute(
             '''
-            SELECT * FROM Queries
+            SELECT date, query, tag, relevant 
+            FROM Queries
             '''
         )
 
