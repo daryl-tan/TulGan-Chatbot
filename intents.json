@@ -364,6 +364,19 @@
 			]
 		},
 		{
+			"tag": "Admission Information",
+			"patterns": [
+				"who can i contact for more information about admission",
+				"who can i contact for more information on admission to NUS",
+				"contact information for admission",
+				"admission contact information",
+				"who can i talk to for more admission information"
+			],
+			"responses": [
+				"For more information on admission, pelase visit this website <a href='http://www.nus.edu.sg/oam/'>http://www.nus.edu.sg/oam/</a> or contact the Office of Admissions at +65 6516 1010."
+			]
+		},
+		{
 			"tag": "Aptitude-based_admissions",
 			"patterns": [
 				"What is aptitude-based admissions",
