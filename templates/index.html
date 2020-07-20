@@ -81,25 +81,22 @@
 		</div>
 		<script>
 			function getFeedback() {
-				/*var satisfaction =
-					'<div class="bot-msg"><p class="botText"><span>' +
-					"Thank you for your question! May I know if I answered your question?" +
-                    "</span></p></div>";
-                    */
 				var feedbackBtn =
 					'<div class="bot-msg">' +
-					'<button class="btn" type="submit" id="upBtn" style="background-color: #efefef; color: #646464; border-color: #fff;" title="Response was accurate.">' +
-					'<i class="fa fa-thumbs-up"> </i>' +
-					'<button class="btn" type="submit" id="downBtn" style="background-color: #efefef; color: #646464; border-color: #fff" title="Response was inaccurate.">' +
+					'<button class="btn btn-primary" type="submit" id="upBtn" style="background-color: #efefef; color: #646464; border-color: #fff;" title="Response was accurate.">' +
+					'<i class="fa fa-thumbs-up"> </i></button>' +
+					'<button class="btn btn-primary" type="submit" id="downBtn" style="background-color: #efefef; color: #646464; border-color: #fff" title="Response was inaccurate.">' +
 					'<i class="fa fa-thumbs-down"> </i>' +
-					"</button></button></div>";
-				//$("#chatbox").append(satisfaction);
+					"</button></div>";
+
 				$("#chatbox").append(feedbackBtn);
 			}
 
 			function getResponse() {
 				let userText = $("#textInput").val();
 				if (userText.length > 0) {
+					$("#upBtn").remove();
+					$("#downBtn").remove();
 					let userHtml =
 						'<div class="user-msg" id="usermsg"><p class="userText"><span>' +
 						userText +
@@ -127,6 +124,26 @@
 
 			$("#sendBtn").click(function () {
 				getResponse();
+			});
+
+			$(document).on("click", "#upBtn", function () {
+				$.get("/vote", { relevance: true });
+				var msg =
+					'<div class="bot-msg" id="botmsg"><p class="botText"><span>' +
+					"Thank you for the feedback!" +
+					"</span></p></div>";
+				$("#chatbox").append(msg);
+				$("#chatbox").scrollTop(10000000000);
+			});
+
+			$(document).on("click", "#downBtn", function () {
+				$.get("/vote", { relevance: false });
+				var msg =
+					'<div class="bot-msg" id="botmsg"><p class="botText"><span>' +
+					"Thank you for the feedback!" +
+					"</span></p></div>";
+				$("#chatbox").append(msg);
+				$("#chatbox").scrollTop(10000000000);
 			});
 		</script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
