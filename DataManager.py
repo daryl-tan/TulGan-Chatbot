@@ -8,6 +8,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
+from email.utils import COMMASPACE
 from email import encoders
 
 connection = psycopg2.connect(
@@ -65,6 +66,7 @@ class DataManager():
         return df
 
     def sendEmail(self, TO):
+        assert type(TO) == str and "@" in TO, "ERROR: Parameter has to be an email." 
         FROM = "wtvdummyacc@gmail.com"
         self.analyze()
         
@@ -75,13 +77,17 @@ class DataManager():
         body = f"Query Analysis as of {date.today()}"
 
         data.attach(MIMEText(body, 'plain'))
-        filename = "fig.png"
-        attachment = open("data/fig.png", "rb")
 
         p = MIMEBase('application', 'octet-stream')
-        p.set_payload((attachment).read())
+        p.set_payload((open("data/fig.png", "rb")).read())
         encoders.encode_base64(p)
-        p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
+        p.add_header('Content-Disposition', "attachment; filename= fig.png")
+        data.attach(p)
+
+        p = MIMEBase('application', 'octet-stream')
+        p.set_payload((open("data/data.csv", "rb")).read())
+        encoders.encode_base64(p)
+        p.add_header('Content-Disposition', "attachment; filename= data.csv")
         data.attach(p)
 
         s = smtplib.SMTP('smtp.gmail.com', 587)
@@ -93,15 +99,19 @@ class DataManager():
     def analyze(self):
         df = self.viewTable()
 
-        df_tag = df[["Tag", "Query"]] \
-            .groupby('Tag') \
+        df_tag = df.groupby('Tag') \
+            .Tag \
             .count() \
+            .sort_values(ascending=False) \
             .head(5)
         sns.set()
-        plt.bar(x=df_tag.index, height=df_tag.Query)
+        plt.bar(x=df_tag.index, height=df_tag.values)
         plt.xlabel('Tag')
         plt.xticks(fontsize=7)
         plt.ylabel('Frequency of Query')
         plt.title('Query Analysis')
         plt.tight_layout()
         plt.savefig('data/fig.png')
+
+d=DataManager()
+d.sendEmail("tteo43@gmail.com")
