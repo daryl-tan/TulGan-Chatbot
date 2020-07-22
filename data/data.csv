@@ -1,655 +1,257 @@
 ,Date,Query,Tag,Relevance
-0,2020-06-16,how are you,Welcome,True
-1,2020-06-16,how are you,Welcome,True
-2,2020-06-16,goodbye,bye,True
-3,2020-06-16,goodbye,greetings,True
-4,2020-06-16,hello,greeting,True
-5,2020-06-16,nus curriculum,ComCurriculum,True
-6,2020-06-16,how are you,Welcome,True
-7,2020-06-16,how are you,Welcome,True
-8,2020-06-16,test,greeting,True
-9,2020-06-16,when can i apply to nus,Application_window,True
-10,2020-06-17,where is com 2,ComEng,True
-11,2020-06-17,what are the specialisations in CS,cap,True
-12,2020-06-17,daryl testing,greeting,True
-13,2020-06-17,can i declare a major now,major,True
-14,2020-06-17,how do i take up another minor,minor,True
-15,2020-06-17,are there modules that i do not need to take if i get into a rc,minor,True
-16,2020-06-17,what are some modules that i should take first in my first sem ,Appeal_for_higher_ranked_choices,True
-17,2020-06-17,"i heard MA1101R is hard, how can i cope better in that module",Selection_for_admission_to_NUS,True
-18,2020-06-17,hello,greeting,True
-19,2020-06-17,how does the SU system work?,InfoSys,True
-20,2020-06-17,how do plan my modules ,greeting,True
-21,2020-06-17,how to map my modules,greeting,True
-22,2020-06-17,how to juggle well my studies ,defer studies and reserve place,True
-23,2020-06-17,what majors can i have,major,True
-24,2020-06-17,what minors can i have,minor,True
-25,2020-06-17,how many MC can i double count,greeting,True
-26,2020-06-17,do i need to learn programming?,Application_window,True
-27,2020-06-17,how intense is the workload?,greeting,True
-28,2020-06-17,how hard is it to code?,greeting,True
-29,2020-06-17,do i need to have prior programming experience in order to do CS?,InfoSys,True
-30,2020-06-17,what specialisations are there for cs?,greeting,True
-31,2020-06-17,"what is the difference between cs, is, bza and com eng?",ComEng,True
-32,2020-06-17,How do SUs work? ,greeting,True
-33,2020-06-17,where can i learn more about modules? ,greeting,True
-34,2020-06-17,how do I know if i’ve been rejected by nus?,Notification of interview and tests,True
-35,2020-06-17,is there any platform i can receive advice for modules or uni from seniors? ,Appeal_for_other_courses_besides_previous_choices,True
-36,2020-06-17,when do I have to pay school fees by?,Online_submission_of_supporting_documents_payment_application_fee,True
-37,2020-06-17,can i still change my course now?,Appeal_to_change_course_after_being_offered,True
-38,2020-06-17,what cca options are there in nus?,cap,True
-39,2020-06-17,when does school start? ,Application_window,True
-40,2020-06-17,how do we register for modules? ,greeting,True
-41,2020-06-17,what are some modules that i should take first in my first sem ,Appeal_for_higher_ranked_choices,True
-42,2020-06-17,how do i take up another minor,minor,True
-43,2020-06-17,can i declare a major now,major,True
-44,2020-06-17,where is com 2,ComEng,True
-45,2020-06-17,what are the specialisations in CS,cap,True
-46,2020-06-18,nus curriculum,ComCurriculum,True
-47,2020-06-18,nus curriculum,ComCurriculum,True
-48,2020-06-18,U,greeting,True
-49,2020-06-18,Where is SoC,greeting,True
-50,2020-06-18,Why SoC,greeting,True
-51,2020-06-18,What IS IS,options,True
-52,2020-06-18,What’s the cap,cap,True
-53,2020-06-18,What's the cut off point to get into Information Systems,InfoSys,True
-54,2020-06-18,Where can I accept my offer?,NSmen_accepted_offer,True
-55,2020-06-18,What's the difference between Computer Science and Information Systems,ComSci,True
-56,2020-06-18,How well must I do to get into Business Analytics,BZA,True
-57,2020-06-18,What's the school fees for Information Security,InfoSec,True
-58,2020-06-18,What are the scholarship programmes available,NUS_Scholarship_interview,True
-59,2020-06-18,When is the camp dates?,greeting,True
-60,2020-06-18,How can I join a camp?,greeting,True
-61,2020-06-18,Is there any pre-requisite to join Computer Science,ComSci,True
-62,2020-06-18,How hard is it to get into Business Analytics,BZA,True
-63,2020-06-18,What specialisations do you offer for Information Systems,InfoSys,True
-64,2020-06-18,When are the holidays?,Application_window,True
-65,2020-06-18,How do I apply to NUS Computing,Application_window,True
-66,2020-06-18,daryl test start ,greeting,True
-67,2020-06-18,computing,ComSci,True
-68,2020-06-18,nus curriculum,ComCurriculum,True
-69,2020-06-18,nus curriculum,ComCurriculum,True
-70,2020-06-18,nus curriculum,ComCurriculum,True
-71,2020-06-18,nus curriculum,ComCurriculum,True
-72,2020-06-18,computing,ComSci,True
-73,2020-06-18,hello,greeting,True
-74,2020-06-18,nus curriculum,ComCurriculum,True
-75,2020-06-18,nus curriculum,ComCurriculum,True
-76,2020-06-18,nus curriculum,ComCurriculum,True
-77,2020-06-18,nus curriculum,ComCurriculum,True
-78,2020-06-18,nus curriculum,ComCurriculum,True
-79,2020-06-18,nus curriculum,ComCurriculum,True
-80,2020-06-18,nus curriculum,ComCurriculum,True
-81,2020-06-18,hello,greeting,True
-82,2020-06-18,when can i apply to nus,Application_window,True
-83,2020-06-18,hello,greeting,True
-84,2020-06-18,hi,greeting,True
-85,2020-06-18,hello,greeting,True
-86,2020-06-19,hi is computing fun,ComSci,True
-87,2020-06-19,is it difficult,greeting,True
-88,2020-06-21,What is the normal workload for computing students?,greeting,True
-89,2020-06-21,When do we choose our specialization?,Application_window,True
-90,2020-06-21,What is the rank point required to enter computing?,Minimum_marks_admission,True
-91,2020-06-21,Can I transfer to another faculty if I’m not interested?,goodbye,True
-92,2020-06-21,Where is I3?,greeting,True
-93,2020-06-21,Where is LT 17,greeting,True
-94,2020-06-21,How long is Com science degree?,ComSci,True
-95,2020-06-21,What can i minor in?,minor,True
-96,2020-06-23,nus computing,ComEng,True
-97,2020-06-23,nus computing,ComEng,True
-98,2020-06-23,nus computing,ComEng,True
-99,2020-06-23,nus computing,ComEng,True
-100,2020-06-23,nus computing,ComEng,True
-101,2020-06-23,nus computing,ComEng,True
-102,2020-06-23,hello,greeting,True
-103,2020-06-23,when can i apply to nus?,Application_window,True
-104,2020-06-24,what is nus curriculum like?,ComCurriculum,True
-105,2020-06-24,hello,greeting,True
-106,2020-06-24,nus curriculum,ComCurriculum,True
-107,2020-06-23,computing,ComSci,True
-108,2020-06-26,hi,greeting,True
-109,2020-06-26,where is computing school,ComSci,True
-110,2020-06-26,hi,greeting,True
-111,2020-06-26,hi,greeting,True
-112,2020-06-26,hi,greeting,True
-113,2020-06-26,how are you,greeting,True
-114,2020-06-26,,greeting,True
-115,2020-06-26,,greeting,True
-116,2020-06-26,fuck,greeting,True
-117,2020-06-26,tulgan is shit,greeting,True
-118,2020-06-26,what are the modules i can take as a year 1 student,Appeal_for_other_courses_besides_previous_choices,True
-119,2020-06-26,how do i get to school of computing,ComEng,True
-120,2020-06-26,Soc,greeting,True
-121,2020-06-26,Hi I’m lost,greeting,True
-122,2020-06-26,How to go soc,greeting,True
-123,2020-06-26,What’s computing school,ComSci,True
-124,2020-06-26,What’s Informations systems,InfoSys,True
-125,2020-06-26,What’s fintech,greeting,True
-126,2020-06-29,tell me about nus,greeting,True
-127,2020-06-29,what is nus like,greeting,True
-128,2020-06-29,computing,ComSci,True
-129,2020-06-29,what focus areas are there,greeting,True
-130,2020-06-29,tell me about business analytics,BZA,True
-131,2020-06-29,tell me about nus,greeting,True
-132,2020-06-29,a level scores ,Minimum_marks_admission,True
-133,2020-06-29,tell me about nus,greeting,True
-134,2020-06-29,how many focus area computing,ComEng,True
-135,2020-06-29,how long,greeting,True
-136,2020-06-29,how many years of study,defer studies and reserve place,True
-137,2020-06-29,computer science modules,ComSci,True
-138,2020-06-29,linear algebra,greeting,True
-139,2020-06-30,I want to learn more about computing,ComEng,True
-140,2020-06-30,hello,greeting,True
-141,2020-06-30,good day,greeting,True
-142,2020-06-30,graduation requirements,greeting,True
-143,2020-06-30,what are the graduation requirements ,options,True
-144,2020-06-30,what school,greeting,True
-145,2020-06-30,nus law,greeting,True
-146,2020-06-30,nus business analytics,BZA,True
-147,2020-06-30,business,BZA,True
-148,2020-06-30,business admin,BZA,True
-149,2020-06-30,soc,greeting,True
-150,2020-06-30,SoC,greeting,True
-151,2020-06-30,raffles hall,greeting,True
-152,2020-06-30,hall,greeting,True
-153,2020-06-30,computing,ComSci,True
-154,2020-06-30,science,ComSci,True
-155,2020-06-30,biology,greeting,True
-156,2020-06-30,cs1010s,greeting,True
-157,2020-06-30,cs2030,greeting,True
-158,2020-06-30,cs2040,greeting,True
-159,2020-06-30,hard,greeting,True
-160,2020-06-30,USC,greeting,True
-161,2020-06-30,fees,tuition_fee,True
-162,2020-06-30,bus,greeting,True
-163,2020-06-30,shuttle bus,greeting,True
-164,2020-06-30,real estate,greeting,True
-165,2020-06-30,marketing analytics,BZA,True
-166,2020-06-30,nus,greeting,True
-167,2020-06-30,video,greeting,True
-168,2020-06-30,science,ComSci,True
-169,2020-06-30,national university of singapore,greeting,True
-170,2020-06-30,how,greeting,True
-171,2020-06-30,business,BZA,True
-172,2020-06-30,focus area,greeting,True
-173,2020-06-30,cca,greeting,True
-174,2020-06-30,rank points,Ranking_of_course_choices,True
-175,2020-06-30,halls,greeting,True
-176,2020-06-30,workload,greeting,True
-177,2020-06-30,what can you even do,options,True
-178,2020-06-30,computer science,ComSci,True
-179,2020-06-30,computer science gay,ComSci,True
-180,2020-06-30,compu,greeting,True
-181,2020-06-30,c,greeting,True
-182,2020-06-30,admin,greeting,True
-183,2020-06-30,compu,greeting,True
-184,2020-06-30,comput,ComSci,True
-185,2020-06-30,bus,greeting,True
-186,2020-06-30,busi,greeting,True
-187,2020-06-30,busin,greeting,True
-188,2020-06-30,busine,greeting,True
-189,2020-06-30,busines,greeting,True
-190,2020-06-30,business,BZA,True
-191,2020-06-30,analy,greeting,True
-192,2020-06-30,analyt,greeting,True
-193,2020-06-30,analyti,greeting,True
-194,2020-06-30,work,greeting,True
-195,2020-06-30,can this work,greeting,True
-196,2020-06-30,how does this work,greeting,True
-197,2020-06-30,what u do,options,True
-198,2020-06-30,do,greeting,True
-199,2020-06-30,can u  do,options,True
-200,2020-06-30,process,Admission_into_special_courses,True
-201,2020-06-30,admissions,Aptitude-based_admissions,True
-202,2020-06-30,hello,greeting,True
-203,2020-06-30,you can't,greeting,True
-204,2020-06-30,S/U,greeting,True
-205,2020-06-30,SU,greeting,True
-206,2020-06-30,declaration,greeting,True
-207,2020-06-30,money,greeting,True
-208,2020-06-30,how do i get out of depression,greeting,True
-209,2020-06-30,what can you do,options,True
-210,2020-06-30,admission,Aptitude-based_admissions,True
-211,2020-06-30,NUS computing,ComEng,True
-212,2020-06-30,Internet of Things,greeting,True
-213,2020-06-30,NUS Computer Science,ComSci,True
-214,2020-06-30,Hello,greeting,True
-215,2020-06-30,Boobs,greeting,True
-216,2020-06-30,How can I go,greeting,True
-217,2020-06-30,computer,ComSci,True
-218,2020-06-30,computing,ComSci,True
-219,2020-06-30,school of computing,ComSci,True
-220,2020-06-30,fees,tuition_fee,True
-221,2020-06-30,scholarship,NUS_Scholarship_interview,True
-222,2020-06-30,how do i get scholarship,NUS_Scholarship_interview,True
-223,2020-06-30,computing,ComSci,True
-224,2020-06-30,how about FASS?,greeting,True
-225,2020-06-30,hyello,greeting,True
-226,2020-06-30,when can i apply to nus,Application_window,True
-227,2020-06-30,hello,greeting,True
-228,2020-07-01,daryl test,greeting,True
-229,2020-07-01,when can i apply to nus ,Application_window,True
-230,2020-07-01,when can i apply to nus,Application_window,True
-231,2020-07-01,when can i apply to nus,Application_window,True
-232,2020-07-01,when can i apply to nus,Application_window,True
-233,2020-07-01,when can i apply to nus,Application_window,True
-234,2020-07-01,when can i apply to nus,Application_window,True
-235,2020-07-01,when can i apply to nus,Application_window,True
-236,2020-07-01,hello,greeting,True
-237,2020-07-01,why nus,greeting,True
-238,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-239,2020-07-01,business analytics,BZA,True
-240,2020-07-01,hello,greeting,True
-241,2020-07-01,when can i apply to nus,Application_window,True
-242,2020-07-01,when can i apply to nus,Application_window,True
-243,2020-07-01,when can i apply to nus,Application_window,True
-244,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-245,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-246,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-247,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-248,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-249,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-250,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-251,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-252,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-253,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-254,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-255,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-256,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-257,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-258,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-259,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-260,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-261,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-262,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-263,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-264,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-265,2020-07-01,what majors are there in computing,DoubleMajorOffered,True
-266,2020-07-01,when can i apply to nus,Application_window,True
-267,2020-07-01,hello,greeting,True
-268,2020-07-01,what is NUS like,greeting,True
-269,2020-07-01,what are the graduation requirements for computing,ComEng,True
-270,2020-07-01,what are the graduation requirements for arts,options,True
-271,2020-07-01,how do I apply,Application_window,True
-272,2020-07-01,when is the deadline,greeting,True
-273,2020-07-01,when can i apply to nus,Application_window,True
-274,2020-07-01,Number.MAX_SAFE_INTEGER,greeting,True
-275,2020-07-01,when can i apply to nus,Application_window,True
-276,2020-07-01,when can i apply to bus,Application_window,True
-277,2020-07-01,when can i apply to nus,Application_window,True
-278,2020-07-01,http://tulgan.herokuapp.com/,greeting,True
-279,2020-07-01,when can i apply to nus,Application_window,True
-280,2020-07-01,when can i apply to nus,Application_window,True
-281,2020-07-01,when can i apply to nus,Application_window,True
-282,2020-07-01,when can I apply to nus,Application_window,True
-283,2020-07-01,when can I apply to nus,Application_window,True
-284,2020-07-01,hello,greeting,True
-285,2020-07-01,hello,greeting,True
-286,2020-07-01,when can I apply to nus,Application_window,True
-287,2020-07-01,when can I apply to nus,Application_window,True
-288,2020-07-01,hello,greeting,True
-289,2020-07-01,when can i apply to nus,Application_window,True
-290,2020-07-01,when can i apply to nus ,Application_window,True
-291,2020-07-01,when can i apply to nus,Application_window,True
-292,2020-07-01,when can i apply to nus,Application_window,True
-293,2020-07-01,when can I apply to nus,Application_window,True
-294,2020-07-01,when can I apply to nus,Application_window,True
-295,2020-07-01,when can I apply to nus,Application_window,True
-296,2020-07-01,when can i apply to nus,Application_window,True
-297,2020-07-01,when can i apply to nus,Application_window,True
-298,2020-07-01,when can i apply to nus,Application_window,True
-299,2020-07-01,when can i apply to nus,Application_window,True
-300,2020-07-01,when can i apply to nus,Application_window,True
-301,2020-07-04,hi,greeting,True
-302,2020-07-04,hi,greeting,True
-303,2020-07-04,hi,greeting,True
-304,2020-07-04,nus curriculum,ComCurriculum,True
-305,2020-07-04,nus curriculum,ComCurriculum,True
-306,2020-07-04,nus curriculum,ComCurriculum,True
-307,2020-07-04,nus curriculum,ComCurriculum,True
-308,2020-07-04,nus curriculum,ComCurriculum,True
-309,2020-07-04,when can i apply to nus,Application_window,True
-310,2020-07-04,business analytics,BZA,True
-311,2020-07-04,hello,greeting,True
-312,2020-07-04,business analytics ,BZA,True
-313,2020-07-04,business analytics,BZA,True
-314,2020-07-04,hello,greeting,True
-315,2020-07-04,when can i apply to nus,Application_window,True
-316,2020-07-04,hello,greeting,True
-317,2020-07-04,hello,greeting,True
-318,2020-07-04,hello,greeting,True
-319,2020-07-04,hello,greeting,True
-320,2020-07-04,hello,greeting,True
-321,2020-07-04,hello,greeting,True
-322,2020-07-04,hello,greeting,True
-323,2020-07-04,hello,greeting,True
-324,2020-07-04,hello,greeting,True
-325,2020-07-04,hello,greeting,True
-326,2020-07-04,hello,greeting,True
-327,2020-07-04,hello,greeting,True
-328,2020-07-04,hello,greeting,True
-329,2020-07-04,hello,greeting,True
-330,2020-07-04,hello,greeting,True
-331,2020-07-04,hello,greeting,True
-332,2020-07-04,hello,greeting,True
-333,2020-07-04,hello,greeting,True
-334,2020-07-04,hello,greeting,True
-335,2020-07-04,hello,greeting,True
-336,2020-07-04,hello,greeting,True
-337,2020-07-04,hello,greeting,True
-338,2020-07-04,hello,greeting,True
-339,2020-07-04,hello,greeting,True
-340,2020-07-04,hello,greeting,True
-341,2020-07-04,hello,greeting,True
-342,2020-07-04,hello,greeting,True
-343,2020-07-04,hello,greeting,True
-344,2020-07-04,hello,greeting,True
-345,2020-07-04,business analytics,BZA,True
-346,2020-07-04,business analytics,BZA,True
-347,2020-07-04,business analytics,BZA,True
-348,2020-07-04,business analytics,BZA,True
-349,2020-07-04,business analytics,BZA,True
-350,2020-07-04,nus curriculum,ComCurriculum,True
-351,2020-07-04,nus curriculum,ComCurriculum,True
-352,2020-07-04,nus curriculum,ComCurriculum,True
-353,2020-07-04,nus curriculum,ComCurriculum,True
-354,2020-07-04,hello,greeting,True
-355,2020-07-04,why,greeting,True
-356,2020-07-04,nus curriculum,ComCurriculum,True
-357,2020-07-04,curriculum,ComCurriculum,True
-358,2020-07-04,fuck you,greeting,True
-359,2020-07-04,,greeting,True
-360,2020-07-04,,greeting,True
-361,2020-07-04,,greeting,True
-362,2020-07-04,,greeting,True
-363,2020-07-04,,greeting,True
-364,2020-07-04,,greeting,True
-365,2020-07-04,,greeting,True
-366,2020-07-04,,greeting,True
-367,2020-07-04,,greeting,True
-368,2020-07-04,,greeting,True
-369,2020-07-04,,greeting,True
-370,2020-07-04,,greeting,True
-371,2020-07-04,,greeting,True
-372,2020-07-04,,greeting,True
-373,2020-07-04,,greeting,True
-374,2020-07-04,,greeting,True
-375,2020-07-04,,greeting,True
-376,2020-07-04,,greeting,True
-377,2020-07-04,,greeting,True
-378,2020-07-04,,greeting,True
-379,2020-07-04,,greeting,True
-380,2020-07-04,,greeting,True
-381,2020-07-04,,greeting,True
-382,2020-07-04,,greeting,True
-383,2020-07-04,,greeting,True
-384,2020-07-04,,greeting,True
-385,2020-07-04,,greeting,True
-386,2020-07-04,,greeting,True
-387,2020-07-04,,greeting,True
-388,2020-07-04,,greeting,True
-389,2020-07-04,,greeting,True
-390,2020-07-04,,greeting,True
-391,2020-07-04,,greeting,True
-392,2020-07-04,,greeting,True
-393,2020-07-04,,greeting,True
-394,2020-07-04,,greeting,True
-395,2020-07-04,,greeting,True
-396,2020-07-04,,greeting,True
-397,2020-07-05,hi,greeting,True
-398,2020-07-05,hi,greeting,True
-399,2020-07-05,courses in nus,Selection_for_admission_to_NUS,True
-400,2020-07-05,computing science,ComSci,True
-401,2020-07-05,computing science difficult,ComSci,True
-402,2020-07-05,yo,greeting,True
-403,2020-07-05,wassup,greeting,True
-404,2020-07-05,wassupppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,greeting,True
-405,2020-07-05,wasupppppp,greeting,True
-406,2020-07-05,1*2,greeting,True
-407,2020-07-05,How do i apply,Application_window,True
-408,2020-07-05,what courses are there for data science,ComSci,True
-409,2020-07-05,how about in fass,cap,True
-410,2020-07-05,can i see engineering,ComEng,True
-411,2020-07-05,goodbye,goodbye,True
-412,2020-07-05,u too,greeting,True
-413,2020-07-05,computer science information systems,ComSci,True
-414,2020-07-05,""" computing",ComSci,True
-415,2020-07-05,'computing',greeting,True
-416,2020-07-05,' information,InfoSec,True
-417,2020-07-05,'business',greeting,True
-418,2020-07-05,',greeting,True
-419,2020-07-05,fffff,greeting,True
-420,2020-07-05,/help,greeting,True
-421,2020-07-05,help,options,True
-422,2020-07-05,who can I contact for information about admissions,InfoSys,True
-423,2020-07-05,what specialisations are there in science,ComSci,True
-424,2020-07-05,analytics,BZA,True
-425,2020-07-05,economics,greeting,True
-426,2020-07-05,{},greeting,True
-427,2020-07-05,\\,greeting,True
-428,2020-07-05,// config/db.js module.exports = { uri : 'postgresdb://localhost/acquisition' },greeting,True
-429,2020-07-05,"""computing""",ComSci,True
-430,2020-07-05,' business,BZA,True
-431,2020-07-05,hi,greeting,True
-432,2020-07-05,hi,greeting,True
-433,2020-07-05,hi,greeting,True
-434,2020-07-05,hi,greeting,True
-435,2020-07-05,hi,greeting,True
-436,2020-07-07,,greeting,True
-437,2020-07-07,,greeting,True
-438,2020-07-07,,greeting,True
-439,2020-07-07,,greeting,True
-440,2020-07-07,hello,greeting,True
-441,2020-07-07, ,greeting,True
-442,2020-07-07,when can i apply to nus,Application_window,True
-443,2020-07-07,daryl test start,greeting,True
-444,2020-07-07,daryl test,greeting,True
-445,2020-07-07,hello,greeting,True
-446,2020-07-07,new test,greeting,True
-447,2020-07-07,hello heloo hellooooo,greeting,True
-448,2020-07-07,new test,greeting,True
-449,2020-07-07,hello,greeting,True
-450,2020-07-07,when can i apply to nus,Application_window,True
-451,2020-07-07,thanks,thanks,True
-452,2020-07-13,BZA,greeting,True
-453,2020-07-13,bza,greeting,True
-454,2020-07-13,BZA,greeting,True
-455,2020-07-13,bza,noanswer,True
-456,2020-07-13,Hello,greeting,True
-457,2020-07-13,Hello,greeting,True
-458,2020-07-13,konichiwa,noanswer,True
-459,2020-07-13,ello,noanswer,True
-460,2020-07-13,Hello,greeting,True
-461,2020-07-13,Hello,greeting,True
-462,2020-07-13,byenus curriculum,ComCurriculum,True
-463,2020-07-13,Computing,ComSci,True
-464,2020-07-13,What is the graduation requirements,noanswer,True
-465,2020-07-13,How many modular credits is required for a major?,major,True
-466,2020-07-13,What are the specialization available in computer science,ComSci,True
-467,2020-07-13,What are the specialization available in business analytics,BZA,True
-468,2020-07-13,What is the outcome of my application,Application_Outcome,True
-469,2020-07-13,What is the graduation requirements,noanswer,True
-470,2020-07-13,Computing,ComSci,True
-471,2020-07-13,What are the specialization available in computer science,ComSci,True
-472,2020-07-13,What are the specialization available in business analytics,BZA,True
-473,2020-07-13,How many modular credits is required for a major?,major,True
-474,2020-07-13,What is the outcome of my application,Application_Outcome,True
-475,2020-07-13,What is the graduation requirements,noanswer,True
-476,2020-07-13,Computing,ComSci,True
-477,2020-07-13,What are the specialization available in computer science,ComSci,True
-478,2020-07-13,What are the specialization available in business analytics,BZA,True
-479,2020-07-13,How many modular credits is required for a major?,major,True
-480,2020-07-13,What is the outcome of my application,Application_Outcome,True
-481,2020-07-13,What is the graduation requirements,noanswer,True
-482,2020-07-13,Computing,ComSci,True
-483,2020-07-13,What are the specialization available in computer science,ComSci,True
-484,2020-07-13,What are the specialization available in business analytics,BZA,True
-485,2020-07-13,How many modular credits is required for a major?,major,True
-486,2020-07-13,What is the outcome of my application,Application_Outcome,True
-487,2020-07-13,What is the graduation requirements,noanswer,True
-488,2020-07-13,Computing,ComSci,True
-489,2020-07-13,What are the specialization available in computer science,ComSci,True
-490,2020-07-13,What are the specialization available in business analytics,BZA,True
-491,2020-07-13,How many modular credits is required for a major?,major,True
-492,2020-07-13,What is the outcome of my application,Application_Outcome,True
-493,2020-07-13,hello,greeting,True
-494,2020-07-13,What is the graduation requirements,noanswer,True
-495,2020-07-13,Computing,ComSci,True
-496,2020-07-13,What are the specialization available in computer science,ComSci,True
-497,2020-07-13,What are the specialization available in business analytics,BZA,True
-498,2020-07-13,How many modular credits is required for a major?,major,True
-499,2020-07-13,What is the outcome of my application,Application_Outcome,True
-500,2020-07-13,What is the graduation requirements,noanswer,True
-501,2020-07-13,Computing,ComSci,True
-502,2020-07-13,What are the specialization available in computer science,ComSci,True
-503,2020-07-13,What are the specialization available in business analytics,BZA,True
-504,2020-07-13,How many modular credits is required for a major?,major,True
-505,2020-07-13,What is the outcome of my application,Application_Outcome,True
-506,2020-07-13,What is the graduation requirements,noanswer,True
-507,2020-07-13,Computing,ComSci,True
-508,2020-07-13,What are the specialization available in computer science,ComSci,True
-509,2020-07-13,What are the specialization available in business analytics,BZA,True
-510,2020-07-13,How many modular credits is required for a major?,major,True
-511,2020-07-13,What is the outcome of my application,Application_Outcome,True
-512,2020-07-13,What is the graduation requirements,noanswer,True
-513,2020-07-13,Computing,ComSci,True
-514,2020-07-13,What are the specialization available in computer science,ComSci,True
-515,2020-07-13,What are the specialization available in business analytics,BZA,True
-516,2020-07-13,How many modular credits is required for a major?,major,True
-517,2020-07-13,What is the outcome of my application,Application_Outcome,True
-518,2020-07-13,What is the graduation requirements,noanswer,True
-519,2020-07-13,Computing,ComSci,True
-520,2020-07-13,What are the specialization available in computer science,ComSci,True
-521,2020-07-13,What are the specialization available in business analytics,BZA,True
-522,2020-07-13,How many modular credits is required for a major?,major,True
-523,2020-07-13,What is the outcome of my application,Application_Outcome,True
-524,2020-07-13,What is the graduation requirements,noanswer,True
-525,2020-07-13,Computing,ComSci,True
-526,2020-07-13,What are the specialization available in computer science,ComSci,True
-527,2020-07-13,What are the specialization available in business analytics,BZA,True
-528,2020-07-13,How many modular credits is required for a major?,major,True
-529,2020-07-13,What is the outcome of my application,Application_Outcome,True
-530,2020-07-13,What is the graduation requirements,noanswer,True
-531,2020-07-13,Computing,ComSci,True
-532,2020-07-13,What are the specialization available in computer science,ComSci,True
-533,2020-07-13,What are the specialization available in business analytics,BZA,True
-534,2020-07-13,How many modular credits is required for a major?,major,True
-535,2020-07-13,What is the outcome of my application,Application_Outcome,True
-536,2020-07-13,What is the graduation requirements,noanswer,True
-537,2020-07-13,Computing,ComSci,True
-538,2020-07-13,What are the specialization available in computer science,ComSci,True
-539,2020-07-13,What are the specialization available in business analytics,BZA,True
-540,2020-07-13,How many modular credits is required for a major?,major,True
-541,2020-07-13,What is the outcome of my application,Application_Outcome,True
-542,2020-07-13,What is the graduation requirements,noanswer,True
-543,2020-07-13,Computing,ComSci,True
-544,2020-07-13,What are the specialization available in computer science,ComSci,True
-545,2020-07-13,What are the specialization available in business analytics,BZA,True
-546,2020-07-13,How many modular credits is required for a major?,major,True
-547,2020-07-13,What is the outcome of my application,Application_Outcome,True
-548,2020-07-13,What is the graduation requirements,noanswer,True
-549,2020-07-13,Computing,ComSci,True
-550,2020-07-13,What are the specialization available in computer science,ComSci,True
-551,2020-07-13,What are the specialization available in business analytics,BZA,True
-552,2020-07-13,How many modular credits is required for a major?,major,True
-553,2020-07-13,What is the outcome of my application,Application_Outcome,True
-554,2020-07-13,What is the graduation requirements,noanswer,True
-555,2020-07-13,Computing,ComSci,True
-556,2020-07-13,What are the specialization available in computer science,ComSci,True
-557,2020-07-13,What are the specialization available in business analytics,BZA,True
-558,2020-07-13,How many modular credits is required for a major?,major,True
-559,2020-07-13,What is the outcome of my application,Application_Outcome,True
-560,2020-07-13,What is the graduation requirements,noanswer,True
-561,2020-07-13,Computing,ComSci,True
-562,2020-07-13,What are the specialization available in computer science,ComSci,True
-563,2020-07-13,What are the specialization available in business analytics,BZA,True
-564,2020-07-13,How many modular credits is required for a major?,major,True
-565,2020-07-13,What is the outcome of my application,Application_Outcome,True
-566,2020-07-13,What is the graduation requirements,noanswer,True
-567,2020-07-13,Computing,ComSci,True
-568,2020-07-13,What are the specialization available in computer science,ComSci,True
-569,2020-07-13,What are the specialization available in business analytics,BZA,True
-570,2020-07-13,How many modular credits is required for a major?,major,True
-571,2020-07-13,What is the outcome of my application,Application_Outcome,True
-572,2020-07-13,What is the graduation requirements,noanswer,True
-573,2020-07-13,Computing,ComSci,True
-574,2020-07-13,What are the specialization available in computer science,ComSci,True
-575,2020-07-13,What are the specialization available in business analytics,BZA,True
-576,2020-07-13,How many modular credits is required for a major?,major,True
-577,2020-07-13,What is the outcome of my application,Application_Outcome,True
-578,2020-07-13,What is the graduation requirements,noanswer,True
-579,2020-07-13,Computing,ComSci,True
-580,2020-07-13,What are the specialization available in computer science,ComSci,True
-581,2020-07-13,What are the specialization available in business analytics,BZA,True
-582,2020-07-13,How many modular credits is required for a major?,major,True
-583,2020-07-13,What is the outcome of my application,Application_Outcome,True
-584,2020-07-13,What is the graduation requirements,noanswer,True
-585,2020-07-13,Computing,ComSci,True
-586,2020-07-13,What are the specialization available in computer science,ComSci,True
-587,2020-07-13,What are the specialization available in business analytics,BZA,True
-588,2020-07-13,How many modular credits is required for a major?,major,True
-589,2020-07-13,What is the outcome of my application,Application_Outcome,True
-590,2020-07-13,What is the graduation requirements,noanswer,True
-591,2020-07-13,Computing,ComSci,True
-592,2020-07-13,What are the specialization available in computer science,ComSci,True
-593,2020-07-13,What are the specialization available in business analytics,BZA,True
-594,2020-07-13,How many modular credits is required for a major?,major,True
-595,2020-07-13,What is the outcome of my application,Application_Outcome,True
-596,2020-07-13,What is the graduation requirements,noanswer,True
-597,2020-07-13,Computing,ComSci,True
-598,2020-07-13,What are the specialization available in computer science,ComSci,True
-599,2020-07-13,What are the specialization available in business analytics,BZA,True
-600,2020-07-13,How many modular credits is required for a major?,major,True
-601,2020-07-13,What is the outcome of my application,Application_Outcome,True
-602,2020-07-13,What is the graduation requirements,noanswer,True
-603,2020-07-13,Computing,ComSci,True
-604,2020-07-13,What are the specialization available in computer science,ComSci,True
-605,2020-07-13,What are the specialization available in business analytics,BZA,True
-606,2020-07-13,How many modular credits is required for a major?,major,True
-607,2020-07-13,What is the outcome of my application,Application_Outcome,True
-608,2020-07-13,What is the graduation requirements,noanswer,True
-609,2020-07-13,Computing,ComSci,True
-610,2020-07-13,What are the specialization available in computer science,ComSci,True
-611,2020-07-13,What are the specialization available in business analytics,BZA,True
-612,2020-07-13,How many modular credits is required for a major?,major,True
-613,2020-07-13,What is the outcome of my application,Application_Outcome,True
-614,2020-07-13,double major,DoubleMajorOffered,True
-615,2020-07-13,What are the double major offered by nus,DoubleMajorOffered,True
-616,2020-07-13,What are the specialization available in computer science,ComSci,True
-617,2020-07-13,What are the specialization available in business analytics,BZA,True
-618,2020-07-13,How many modular credits is required for a major?,major,True
-619,2020-07-13,What is the outcome of my application,Application_Outcome,True
-620,2020-07-13,Computing,ComSci,True
-621,2020-07-13,What are the specialization available in computer science,ComSci,True
-622,2020-07-13,What are the specialization available in business analytics,BZA,True
-623,2020-07-13,How many modular credits is required for a major?,major,True
-624,2020-07-13,What is the outcome of my application,Application_Outcome,True
-625,2020-07-13,Computing,ComSci,True
-626,2020-07-13,What are the specialization available in computer science,ComSci,True
-627,2020-07-13,What are the specialization available in business analytics,BZA,True
-628,2020-07-13,How many modular credits is required for a major?,major,True
-629,2020-07-13,What is the outcome of my application,Application_Outcome,True
-630,2020-07-13,Computing,ComSci,True
-631,2020-07-13,What are the specialization available in computer science,ComSci,True
-632,2020-07-13,What are the specialization available in business analytics,BZA,True
-633,2020-07-13,Computing,ComSci,True
-634,2020-07-13,What are the specialization available in computer science,ComSci,True
-635,2020-07-13,What are the specialization available in business analytics,BZA,True
-636,2020-07-13,How many modular credits is required for a major?,major,True
-637,2020-07-13,What is the outcome of my application,Application_Outcome,True
-638,2020-07-13,Computing,ComSci,True
-639,2020-07-13,What are the specialization available in computer science,ComSci,True
-640,2020-07-13,What are the specialization available in business analytics,BZA,True
-641,2020-07-13,How many modular credits is required for a major?,major,True
-642,2020-07-13,What is the outcome of my application,Application_Outcome,True
-643,2020-07-13,Computing,ComSci,True
-644,2020-07-13,What are the specialization available in computer science,ComSci,True
-645,2020-07-13,What are the specialization available in business analytics,BZA,True
-646,2020-07-13,How many modular credits is required for a major?,major,True
-647,2020-07-13,What is the outcome of my application,Application_Outcome,True
-648,2020-07-13,Computing,ComSci,True
-649,2020-07-13,What are the specialization available in computer science,ComSci,True
-650,2020-07-13,What are the specialization available in business analytics,BZA,True
-651,2020-07-13,How many modular credits is required for a major?,major,True
-652,2020-07-13,What is the outcome of my application,Application_Outcome,True
-653,2020-07-13,What are the degree offered by nus computing,ComCourses,True
+0,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+1,2020-07-21,What are the specialization available in computer science?,ComSci,
+2,2020-07-21,What are the specialization available in business analytics?,BZA,
+3,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+4,2020-07-21,How many modular credits is required for a major?,major,
+5,2020-07-21,What is the outcome of my application?,Application_Outcome,
+6,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+7,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+8,2020-07-21,NUS Computing,ComCourses,
+9,2020-07-21,What are the specialization available in computer science?,ComSci,
+10,2020-07-21,What are the specialization available in business analytics?,BZA,
+11,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+12,2020-07-21,How many modular credits is required for a major?,major,
+13,2020-07-21,What is the outcome of my application?,Application_Outcome,
+14,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+15,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+16,2020-07-21,NUS Computing,ComCourses,
+17,2020-07-21,What are the specialization available in computer science?,ComSci,
+18,2020-07-21,What are the specialization available in business analytics?,BZA,
+19,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+20,2020-07-21,How many modular credits is required for a major?,major,
+21,2020-07-21,What is the outcome of my application?,Application_Outcome,
+22,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+23,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+24,2020-07-21,NUS Computing,ComCourses,
+25,2020-07-21,What are the specialization available in computer science?,ComSci,
+26,2020-07-21,What are the specialization available in business analytics?,BZA,
+27,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+28,2020-07-21,How many modular credits is required for a major?,major,
+29,2020-07-21,What is the outcome of my application?,Application_Outcome,
+30,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+31,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+32,2020-07-21,NUS Computing,ComCourses,
+33,2020-07-21,What are the specialization available in computer science?,ComSci,
+34,2020-07-21,What are the specialization available in business analytics?,BZA,
+35,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+36,2020-07-21,How many modular credits is required for a major?,major,
+37,2020-07-21,What is the outcome of my application?,Application_Outcome,
+38,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+39,2020-07-21,hello,greeting,
+40,2020-07-21,hi,greeting,
+41,2020-07-21,hi,greeting,
+42,2020-07-21,hi,greeting,
+43,2020-07-21,hi,greeting,
+44,2020-07-21,hi,greeting,
+45,2020-07-21,hi,greeting,
+46,2020-07-21,hihihi,greeting,
+47,2020-07-21,hihi,greeting,
+48,2020-07-21,hi,greeting,
+49,2020-07-21,hi,greeting,
+50,2020-07-21,hihihihi,greeting,
+51,2020-07-21,hi,greeting,
+52,2020-07-21,hi,greeting,
+53,2020-07-21,hi,greeting,
+54,2020-07-21,hi,greeting,
+55,2020-07-21,v,greeting,
+56,2020-07-21,hi,greeting,
+57,2020-07-21,hi,greeting,
+58,2020-07-21,hi,greeting,
+59,2020-07-21,hi,greeting,
+60,2020-07-21,hi,greeting,
+61,2020-07-21,hi,greeting,
+62,2020-07-21,hi,greeting,
+63,2020-07-21,hi,greeting,
+64,2020-07-21,hi,greeting,
+65,2020-07-21,hi,greeting,
+66,2020-07-21,hi,greeting,
+67,2020-07-21,gooy bye,goodbye,
+68,2020-07-21,good bye,goodbye,
+69,2020-07-21,good bye,goodbye,
+70,2020-07-21,good bye,goodbye,
+71,2020-07-21,good byegood byegood byegood bye,goodbye,
+72,2020-07-21,good bye,goodbye,
+73,2020-07-21,good bye,goodbye,
+74,2020-07-21,good bye,goodbye,
+75,2020-07-21,good bye,goodbye,
+76,2020-07-21,good bye,goodbye,
+77,2020-07-21,good bye,goodbye,
+78,2020-07-21,good bye,goodbye,
+79,2020-07-21,good bye,goodbye,
+80,2020-07-21,good bye,goodbye,
+81,2020-07-21,good bye,goodbye,
+82,2020-07-21,good bye,goodbye,
+83,2020-07-21,good bye,goodbye,
+84,2020-07-21,good bye,goodbye,
+85,2020-07-21,good bye,goodbye,
+86,2020-07-21,good bye,goodbye,
+87,2020-07-21,good bye,goodbye,
+88,2020-07-21,good bye,goodbye,
+89,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+90,2020-07-21,NUS Computing,ComCourses,
+91,2020-07-21,What are the specialization available in computer science?,ComSci,
+92,2020-07-21,What are the specialization available in business analytics?,BZA,
+93,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+94,2020-07-21,How many modular credits is required for a major?,major,
+95,2020-07-21,What is the outcome of my application?,Application_Outcome,
+96,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+97,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+98,2020-07-21,NUS Computing,ComCourses,
+99,2020-07-21,What are the specialization available in computer science?,ComSci,
+100,2020-07-21,What are the specialization available in business analytics?,BZA,
+101,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+102,2020-07-21,How many modular credits is required for a major?,major,
+103,2020-07-21,What is the outcome of my application?,Application_Outcome,
+104,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+105,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+106,2020-07-21,NUS Computing,ComCourses,
+107,2020-07-21,What are the specialization available in computer science?,ComSci,
+108,2020-07-21,What are the specialization available in business analytics?,BZA,
+109,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+110,2020-07-21,How many modular credits is required for a major?,major,
+111,2020-07-21,What is the outcome of my application?,Application_Outcome,
+112,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+113,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+114,2020-07-21,NUS Computing,ComCourses,
+115,2020-07-21,What are the specialization available in computer science?,ComSci,
+116,2020-07-21,What are the specialization available in business analytics?,BZA,
+117,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+118,2020-07-21,How many modular credits is required for a major?,major,
+119,2020-07-21,What is the outcome of my application?,Application_Outcome,
+120,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+121,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+122,2020-07-21,NUS Computing,ComCourses,
+123,2020-07-21,What are the specialization available in computer science?,ComSci,
+124,2020-07-21,What are the specialization available in business analytics?,BZA,
+125,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+126,2020-07-21,How many modular credits is required for a major?,major,
+127,2020-07-21,What is the outcome of my application?,Application_Outcome,
+128,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+129,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+130,2020-07-21,NUS Computing,ComCourses,
+131,2020-07-21,What are the specialization available in computer science?,ComSci,
+132,2020-07-21,What are the specialization available in business analytics?,BZA,
+133,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+134,2020-07-21,How many modular credits is required for a major?,major,
+135,2020-07-21,What is the outcome of my application?,Application_Outcome,
+136,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+137,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+138,2020-07-21,NUS Computing,ComCourses,
+139,2020-07-21,What are the specialization available in computer science?,ComSci,
+140,2020-07-21,What are the specialization available in business analytics?,BZA,
+141,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+142,2020-07-21,How many modular credits is required for a major?,major,
+143,2020-07-21,What is the outcome of my application?,Application_Outcome,
+144,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+145,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+146,2020-07-21,NUS Computing,ComCourses,
+147,2020-07-21,What are the specialization available in computer science?,ComSci,
+148,2020-07-21,What are the specialization available in business analytics?,BZA,
+149,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+150,2020-07-21,How many modular credits is required for a major?,major,
+151,2020-07-21,What is the outcome of my application?,Application_Outcome,
+152,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+153,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+154,2020-07-21,NUS Computing,ComCourses,
+155,2020-07-21,What are the specialization available in computer science?,ComSci,
+156,2020-07-21,What are the specialization available in business analytics?,BZA,
+157,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+158,2020-07-21,How many modular credits is required for a major?,major,
+159,2020-07-21,What is the outcome of my application?,Application_Outcome,
+160,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+161,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+162,2020-07-21,NUS Computing,ComCourses,
+163,2020-07-21,What are the specialization available in computer science?,ComSci,
+164,2020-07-21,What are the specialization available in business analytics?,BZA,
+165,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+166,2020-07-21,How many modular credits is required for a major?,major,
+167,2020-07-21,What is the outcome of my application?,Application_Outcome,
+168,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+169,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+170,2020-07-21,NUS Computing,ComCourses,
+171,2020-07-21,What are the specialization available in computer science?,ComSci,
+172,2020-07-21,What are the specialization available in business analytics?,BZA,
+173,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+174,2020-07-21,How many modular credits is required for a major?,major,
+175,2020-07-21,What is the outcome of my application?,Application_Outcome,
+176,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+177,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+178,2020-07-21,NUS Computing,ComCourses,
+179,2020-07-21,What are the specialization available in computer science?,ComSci,
+180,2020-07-21,What are the specialization available in business analytics?,BZA,
+181,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+182,2020-07-21,How many modular credits is required for a major?,major,
+183,2020-07-21,What is the outcome of my application?,Application_Outcome,
+184,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+185,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+186,2020-07-21,NUS Computing,ComCourses,
+187,2020-07-21,What are the specialization available in computer science?,ComSci,
+188,2020-07-21,What are the specialization available in business analytics?,BZA,
+189,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+190,2020-07-21,How many modular credits is required for a major?,major,
+191,2020-07-21,What is the outcome of my application?,Application_Outcome,
+192,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+193,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+194,2020-07-21,NUS Computing,ComCourses,
+195,2020-07-21,What are the specialization available in computer science?,ComSci,
+196,2020-07-21,What are the specialization available in business analytics?,BZA,
+197,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+198,2020-07-21,How many modular credits is required for a major?,major,
+199,2020-07-21,What is the outcome of my application?,Application_Outcome,
+200,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+201,2020-07-21,What are the double major offered by NUS?,DoubleMajorOffered,
+202,2020-07-21,NUS Computing,ComCourses,
+203,2020-07-21,What are the specialization available in computer science?,ComSci,
+204,2020-07-21,What are the specialization available in business analytics?,BZA,
+205,2020-07-21,What are the degree offered by nus computing?,ComCourses,
+206,2020-07-21,How many modular credits is required for a major?,major,
+207,2020-07-21,What is the outcome of my application?,Application_Outcome,
+208,2020-07-21,Who do I contact for more information on admission?,Admission Information,
+209,2020-07-21, Who do I contact for more information on admission?,Admission Information,
+210,2020-07-21, Who do I contact for more information on admission?,Admission Information,
+211,2020-07-21, Who do I contact for more information on admission?,Admission Information,
+212,2020-07-21, Who do I contact for more information on admission?,Admission Information,
+213,2020-07-21, Who do I contact for more information on admission?,Admission Information,
+214,2020-07-21,business analytics,BZA,
+215,2020-07-21,business analytics,BZA,
+216,2020-07-21,business analytics,BZA,
+217,2020-07-21,business analytics,BZA,
+218,2020-07-21,business analytics,BZA,
+219,2020-07-21,business analytics,BZA,
+220,2020-07-21,business analytics,BZA,
+221,2020-07-21,business analytics,BZA,
+222,2020-07-21,business analytics,BZA,
+223,2020-07-21,business analytics,BZA,
+224,2020-07-21,business analytics,BZA,
+225,2020-07-21,business analytics,BZA,
+226,2020-07-21,business analytics,BZA,
+227,2020-07-21,business analytics,BZA,
+228,2020-07-21,business analytics,BZA,
+229,2020-07-21,business analytics,BZA,
+230,2020-07-21,business analytics,BZA,
+231,2020-07-21,business analytics,BZA,
+232,2020-07-21,business analytics,BZA,
+233,2020-07-21,business analytics,BZA,
+234,2020-07-21,business analytics,BZA,
+235,2020-07-21,business analytics,BZA,
+236,2020-07-21,business analytics,BZA,
+237,2020-07-21,business analytics,BZA,
+238,2020-07-21,business analytics,BZA,
+239,2020-07-21,computer sci,ComSci,
+240,2020-07-21,computer sci,ComSci,
+241,2020-07-21,computer sci,ComSci,
+242,2020-07-21,computer sci,ComSci,
+243,2020-07-21,computer sci,ComSci,
+244,2020-07-21,computer sci,ComSci,
+245,2020-07-21,computer sci,ComSci,
+246,2020-07-21,computer sci,ComSci,
+247,2020-07-21,computer sci,ComSci,
+248,2020-07-21,computer sci,ComSci,
+249,2020-07-21,computer sci,ComSci,
+250,2020-07-21,computer sci,ComSci,
+251,2020-07-21,v,greeting,
+252,2020-07-21,computer sci,ComSci,
+253,2020-07-21,computer sci,ComSci,
+254,2020-07-21,computer sci,ComSci,
+255,2020-07-21,computer sci,ComSci,

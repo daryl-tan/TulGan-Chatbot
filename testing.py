@@ -43,10 +43,12 @@ respond("What are the specialization available in business analytics?")
 respond("What are the degree offered by nus computing?")
 respond("How many modular credits is required for a major?")
 respond("What is the outcome of my application?")
+respond("What are the specialization available in information system?")
 respond("Who do I contact for more information on admission?")
 
 tags = ["context", "DoubleMajorOffered", "ComSci", "BZA",
-"ComCourses", "major", "Application_Outcome", "Admission Information"]
+"ComCourses", "Major", "ApplicationOutcome", "InfoSys",
+"AdmissionInfo"]
 
 queries = driver.find_elements_by_id("usermsg")
 queries = zip(tags, queries)

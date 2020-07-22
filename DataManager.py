@@ -96,10 +96,12 @@ class DataManager():
         df_tag = df[["Tag", "Query"]] \
             .groupby('Tag') \
             .count() \
-            .head(10)
+            .head(5)
         sns.set()
         plt.bar(x=df_tag.index, height=df_tag.Query)
         plt.xlabel('Tag')
+        plt.xticks(fontsize=7)
         plt.ylabel('Frequency of Query')
         plt.title('Query Analysis')
+        plt.tight_layout()
         plt.savefig('data/fig.png')

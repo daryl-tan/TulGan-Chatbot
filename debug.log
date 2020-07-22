@@ -24,3 +24,15 @@
 [0713/233707.637:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [0713/233707.637:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
 [0713/233707.637:ERROR:exception_snapshot_win.cc(98)] thread ID 22376 not found in process
+[0717/150956.786:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0717/150956.789:ERROR:exception_snapshot_win.cc(98)] thread ID 17036 not found in process
+[0722/105538.336:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0722/105538.339:ERROR:exception_snapshot_win.cc(98)] thread ID 12128 not found in process
+[0722/105538.368:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0722/105538.368:ERROR:exception_snapshot_win.cc(98)] thread ID 2232 not found in process
+[0722/105538.419:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0722/105538.419:ERROR:exception_snapshot_win.cc(98)] thread ID 11220 not found in process
+[0722/105538.483:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0722/105538.485:ERROR:exception_snapshot_win.cc(98)] thread ID 9688 not found in process
+[0722/105538.539:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0722/105538.539:ERROR:exception_snapshot_win.cc(98)] thread ID 9260 not found in process

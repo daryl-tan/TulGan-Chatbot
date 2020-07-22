@@ -295,7 +295,7 @@
 			"context_cond": ["Com"]
 		},
 		{
-			"tag": "minor",
+			"tag": "Minor",
 			"patterns": [
 				"How many MC do I need to do a minor?",
 				"MC required for a minor?",
@@ -311,7 +311,7 @@
 			]
 		},
 		{
-			"tag": "major",
+			"tag": "Major",
 			"patterns": [
 				"How many MC do I need to do a major?",
 				"MC required for a major?",
@@ -328,7 +328,7 @@
 			]
 		},
 		{
-			"tag": "cap",
+			"tag": "CAP",
 			"patterns": [
 				"What is NUS cap like?",
 				"NUS cap?",
@@ -350,7 +350,7 @@
 			]
 		},
 		{
-			"tag": "Application_Outcome",
+			"tag": "ApplicationOutcome",
 			"patterns": [
 				"What is the outcome of my application",
 				"When will i know the outcome of my application",
@@ -364,7 +364,7 @@
 			]
 		},
 		{
-			"tag": "Admission Information",
+			"tag": "AdmissionInfo",
 			"patterns": [
 				"who can i contact for more information about admission",
 				"who can i contact for more information on admission to NUS",
@@ -377,7 +377,7 @@
 			]
 		},
 		{
-			"tag": "Aptitude-based_admissions",
+			"tag": "AptBasedAdmissions",
 			"patterns": [
 				"What is aptitude-based admissions",
 				"Ways to enter NUS besides grades",
@@ -391,7 +391,7 @@
 			]
 		},
 		{
-			"tag": "Application_window",
+			"tag": "AppWindow",
 			"patterns": [
 				"How to apply to NUS",
 				"When can I apply to NUS",
@@ -409,7 +409,7 @@
 			]
 		},
 		{
-			"tag": "Ranking_of_course_choices",
+			"tag": "CourseRankings",
 			"patterns": [
 				"How do i rank the choice of course I wish to be considered?",
 				"how do i rank my courses choices",
@@ -421,7 +421,7 @@
 			]
 		},
 		{
-			"tag": "Early_application_outcome",
+			"tag": "EarlyAppResult",
 			"patterns": [
 				"Request early application outcome",
 				"I have received an offer of admission from another university and has to accept it before NUS is able to inform me of my application outcome by end May.  Can I request an early outcome from NUS to make an informed decision?",
@@ -433,7 +433,7 @@
 			]
 		},
 		{
-			"tag": "Minimum_marks_admission",
+			"tag": "MinMarksAdmission",
 			"patterns": [
 				"What are the minimum marks to get into NUS",
 				"What are the minimum marks to secure admission into NUS",
@@ -446,7 +446,7 @@
 			]
 		},
 		{
-			"tag": "Appeal_to_change_course_after_being_offered",
+			"tag": "CourseAppeal",
 			"patterns": [
 				"I have been offered a course already, can i still change my course",
 				"Can I appeal to change to another course after I have been offered a place",
@@ -460,7 +460,7 @@
 			]
 		},
 		{
-			"tag": "Online_submission_of_supporting_documents_payment_application_fee",
+			"tag": "DocuFeeSubmission",
 			"patterns": [
 				"If I apply online, how do I submit my supporting documents and payment?",
 				"How do I check if my supporting documents and payment have been received?",
@@ -474,7 +474,7 @@
 			]
 		},
 		{
-			"tag": "Appeal_for_higher_ranked_choices",
+			"tag": "ChoiceAppeal",
 			"patterns": [
 				"I was offered admission to my third choice of course. Should I appeal to be admitted to my first and second choices?",
 				"Can i appeal to get my first choice",
@@ -486,7 +486,7 @@
 			]
 		},
 		{
-			"tag": "tuition_fee",
+			"tag": "TuitionFee",
 			"patterns": [
 				"What are the tuition fees in NUS",
 				"Tuition fee",
@@ -500,7 +500,7 @@
 			]
 		},
 		{
-			"tag": "Admission_into_special_courses",
+			"tag": "AdmissionInterview",
 			"patterns": [
 				"What is the shortlisting and selection procedure for courses requiring a first round of test and interview",
 				"What is the interview process for Medicine like",
@@ -517,7 +517,7 @@
 			]
 		},
 		{
-			"tag": "NSmen_accepted_offer",
+			"tag": "NSOffer",
 			"patterns": [
 				"I am a full-time National Serviceman. What must I do after accepting the offer of admission to a course?",
 				"What must nsfs do after accepting offer to nus",
@@ -530,7 +530,7 @@
 			]
 		},
 		{
-			"tag": "Appeal_for_other_courses_besides_previous_choices",
+			"tag": "RejectedApplication",
 			"patterns": [
 				"I was not offered a course, should i appeal for the same courses or should i appeal for different courses",
 				"Should i appeal for a different course",
@@ -542,7 +542,7 @@
 			]
 		},
 		{
-			"tag": "nsf_applying_to_change_course",
+			"tag": "NSReApplication",
 			"patterns": [
 				"Can a nsf re-apply to NUS",
 				"how do i reapply",
@@ -557,7 +557,7 @@
 			]
 		},
 		{
-			"tag": "Selection_for_admission_to_NUS",
+			"tag": "AdmissionSelection",
 			"patterns": [
 				"How is one selected for admission to a course in NUS?",
 				"How is the selection procedure like",
@@ -571,7 +571,7 @@
 			]
 		},
 		{
-			"tag": "NUS_Scholarship_interview",
+			"tag": "ScholarshipInterview",
 			"patterns": [
 				"Nus scholarship interview",
 				"When and how will the selection interviews for the NUS Scholarships be conducted",
@@ -585,7 +585,7 @@
 			]
 		},
 		{
-			"tag": "Part_time_undergraduate_degree",
+			"tag": "PartTimeDegree",
 			"patterns": [
 				"Does NUS offer part time undergraduate degree courses",
 				"part time undergraduate degree courses",
@@ -602,7 +602,7 @@
 			]
 		},
 		{
-			"tag": "Online_submission_supporting_documents",
+			"tag": "SubmitDocs",
 			"patterns": [
 				"How do i submit supporting documents",
 				"submit supporting documents online",
@@ -613,7 +613,7 @@
 			]
 		},
 		{
-			"tag": "defer studies and reserve place",
+			"tag": "Defer",
 			"patterns": [
 				"can i defer my studies",
 				"deferring studies",
@@ -626,7 +626,7 @@
 			]
 		},
 		{
-			"tag": "SU Options",
+			"tag": "SUOpts",
 			"patterns": [
 				"How do the SU system works",
 				"What is the SU grading options",
@@ -641,7 +641,7 @@
 			]
 		},
 		{
-			"tag": "Module allocation",
+			"tag": "ModAllocation",
 			"patterns": [
 				"how are the modules allocated",
 				"why did i not get the module i bid for",
@@ -654,7 +654,7 @@
 			]
 		},
 		{
-			"tag": "Module application date",
+			"tag": "ModApplicationDate",
 			"patterns": [
 				"when can i apply for my module",
 				"module application date",
@@ -668,7 +668,7 @@
 			]
 		},
 		{
-			"tag": "Module Registration",
+			"tag": "ModReg",
 			"patterns": [
 				"how do i register for my module",
 				"module registration",
@@ -681,7 +681,7 @@
 			]
 		},
 		{
-			"tag": "Academic Calender",
+			"tag": "AcadCalender",
 			"patterns": [
 				"where can i get the academic calender",
 				"academic calender",
@@ -694,7 +694,7 @@
 			]
 		},
 		{
-			"tag": "How to SU",
+			"tag": "HowToSU",
 			"patterns": [
 				"How do i su",
 				"how do i apply my Su",
@@ -719,7 +719,7 @@
 			]
 		},
 		{
-			"tag": "Number of SU",
+			"tag": "NumSU",
 			"patterns": [
 				"How many su can i exercise",
 				"how many su can i use",
@@ -738,7 +738,7 @@
 			]
 		},
 		{
-			"tag": "Notification of interview and tests",
+			"tag": "NotiofInterview",
 			"patterns": [
 				"When will I be informed that I have been shortlisted for interviews or tests",
 				"how do i know if im shortlisted",
