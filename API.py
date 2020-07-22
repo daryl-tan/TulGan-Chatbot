@@ -17,7 +17,7 @@ class Analysis(Resource):
     def post(self):
         email = request.json['email']
         bot.sendEmail(email)
-        return 201
+        return {"response":"sent"}, 201
 
 api.add_resource(Response, '/response')
 api.add_resource(Analysis, '/analysis')

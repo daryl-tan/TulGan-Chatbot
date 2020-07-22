@@ -39,7 +39,7 @@ def check(inpt, tag):
 respond("What are the double major offered by NUS?")
 respond("NUS Computing")
 respond("What are the specialization available in computer science?")
-respond("What are the specialization available in business analytics?")
+respond("What are the specialization available in bussinness analytics?")
 respond("What are the degree offered by nus computing?")
 respond("How many modular credits is required for a major?")
 respond("What is the outcome of my application?")
