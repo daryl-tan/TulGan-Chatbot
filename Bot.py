@@ -110,5 +110,5 @@ class Bot():
         return answer
 
     def sendEmail(self, TO):
-        assert type(TO) == str, "Input parameter must be String for respond."
+        assert type(TO) == str and "@" in TO, "Input parameter must be String for respond."
         self.dataManager.sendEmail(TO)

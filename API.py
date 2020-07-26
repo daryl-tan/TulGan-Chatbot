@@ -23,4 +23,4 @@ api.add_resource(Response, '/response')
 api.add_resource(Analysis, '/analysis')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, port=3000)
